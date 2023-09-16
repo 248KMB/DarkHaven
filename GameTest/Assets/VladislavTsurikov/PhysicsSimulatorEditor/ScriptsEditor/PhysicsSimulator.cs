@@ -27,6 +27,8 @@ namespace VladislavTsurikov.PhysicsSimulatorEditor.ScriptsEditor
 
         public static void Simulate()
         {
+      
+
             float accelerationPhysics = s_useAccelerationPhysics ? PhysicsSimulatorPath.Settings.AccelerationPhysics : 1;
 
             for (int i = 0; i < accelerationPhysics; i++)
@@ -39,6 +41,8 @@ namespace VladislavTsurikov.PhysicsSimulatorEditor.ScriptsEditor
                     break;
                 }
             }
+
+
         }
         
         public static void Activate(DisablePhysicsMode disablePhysicsTimeMode, bool useAccelerationPhysics = true, bool enablePermanentPhysics = false)

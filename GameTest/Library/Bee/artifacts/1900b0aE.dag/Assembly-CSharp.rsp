@@ -356,6 +356,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Piloto Studio/Readme/Scripts/Readme.cs"
 "Assets/Piloto Studio/Readme/Scripts/ReadmeBehaviour.cs"
+"Assets/Scripts/PlayerCamera.cs"
+"Assets/Scripts/PlayerController.cs"
 "Assets/VladislavTsurikov/AttributeUtility/Scripts/AttributeCache.cs"
 "Assets/VladislavTsurikov/AttributeUtility/Scripts/AttributeUtility.cs"
 "Assets/VladislavTsurikov/AttributeUtility/Scripts/IAttributeProvider.cs"
