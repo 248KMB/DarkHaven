@@ -7,10 +7,10 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private CharacterController characterController;
 
+    private bool isMoving;
     public float speed;
     public float rotationSpeed;
-    public float runThreshold = 0.5f;
-     
+    
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
 
         // Calculate the movement vector.
         Vector3 movement = new Vector3(horizontalInput, 0.0f, verticalInput);
- 
         movement.Normalize();
 
         characterController.Move(movement * speed * Time.deltaTime);
@@ -35,16 +34,14 @@ public class PlayerController : MonoBehaviour
             Quaternion toRotation = Quaternion.LookRotation(movement, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
+
+        // Check if the player is providing movement input.
+        isMoving = movement.magnitude > 0;
+
         animator.SetFloat("Speed", speed);
 
-        if (speed > runThreshold)
-        {
-            animator.SetBool("IsRunning", true);
-        }
-        else
-        {
-            animator.SetBool("IsRunning", false);
-        }
+        animator.SetBool("IsRunning", isMoving);
+        
 
     }
 }
