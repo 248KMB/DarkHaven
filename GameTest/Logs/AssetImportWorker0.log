@@ -15,7 +15,7 @@ C:/Users/Channing/The-3D-Game/GameTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51315
+51269
 Successfully changed project path to: C:/Users/Channing/The-3D-Game/GameTest
 C:/Users/Channing/The-3D-Game/GameTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Channing/The-3D-Game/GameTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21296] Host "[IP] 192.168.0.73 [Port] 0 [Flags] 2 [Guid] 551430559 [EditorId] 551430559 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQKB9BV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1624] Host "[IP] 192.168.0.73 [Port] 0 [Flags] 2 [Guid] 3123993977 [EditorId] 3123993977 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQKB9BV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21296] Host "[IP] 192.168.0.73 [Port] 0 [Flags] 2 [Guid] 551430559 [EditorId] 551430559 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQKB9BV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1624] Host "[IP] 192.168.0.73 [Port] 0 [Flags] 2 [Guid] 3123993977 [EditorId] 3123993977 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQKB9BV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 6.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006396 seconds.
-- Loaded All Assemblies, in  0.268 seconds
+Registered in 0.006909 seconds.
+- Loaded All Assemblies, in  0.345 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.191 seconds
-Domain Reload Profiling: 459ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 600ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (80ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (95ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (117ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (191ms)
+	FinalizeReload (256ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (146ms)
+		SetupLoadedEditorAssemblies (195ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (95ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,52 +118,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.624 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.610 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.655 seconds
-Domain Reload Profiling: 1277ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1460ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (431ms)
-		LoadAssemblies (271ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (294ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (236ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (193ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (655ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (851ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (534ms)
+		SetupLoadedEditorAssemblies (695ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (440ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (578ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (239.5 KB). Loaded Objects now: 4218.
-Memory consumption went from 147.9 MB to 147.6 MB.
-Total: 2.626800 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.115000 ms MarkObjects: 2.136900 ms  DeleteObjects: 0.178500 ms)
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (239.9 KB). Loaded Objects now: 4238.
+Memory consumption went from 157.7 MB to 157.4 MB.
+Total: 3.599600 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.195200 ms MarkObjects: 2.894400 ms  DeleteObjects: 0.167600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,55 +179,257 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 111008.622155 seconds.
+  path: Assets/RFA/HDRP/Prefabs/Player-HDRP.prefab
+  artifactKey: Guid(24052545370909440a8eac7fa3635890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/HDRP/Prefabs/Player-HDRP.prefab using Guid(24052545370909440a8eac7fa3635890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be8e5c981fcedc65c540ee10438afaa') in 0.173867 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 654
+========================================================================
+Received Import Request.
+  Time since last request: 28.895640 seconds.
+  path: Assets/RFA/Common/Plugins/NaughtyCharacter
+  artifactKey: Guid(9fff91e59d2c9a54d8ede72ace93e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Common/Plugins/NaughtyCharacter using Guid(9fff91e59d2c9a54d8ede72ace93e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcc02717926c0c9252df5364066808d') in 0.000618 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.138213 seconds.
+  path: Assets/RFA/Common/Plugins/NaughtyCharacter/Scripts
+  artifactKey: Guid(885d1801d583287478e73c01388d3a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Common/Plugins/NaughtyCharacter/Scripts using Guid(885d1801d583287478e73c01388d3a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76751718b71b41b1f92aa1b4e4639b69') in 0.000454 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.930137 seconds.
+  path: Assets/RFA/Common/Plugins/NaughtyCharacter/Scripts/PlayerCamera.cs
+  artifactKey: Guid(c13ee35010795cc40a47bd37c09f0215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Common/Plugins/NaughtyCharacter/Scripts/PlayerCamera.cs using Guid(c13ee35010795cc40a47bd37c09f0215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ec522ed4b9196dd76e9b4ab1039a7c') in 0.000463 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.491097 seconds.
+  path: Assets/RFA/Common/Prefabs/Camera
+  artifactKey: Guid(f5a6581d42d3bbc458410de78a9ef530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Common/Prefabs/Camera using Guid(f5a6581d42d3bbc458410de78a9ef530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf76676d29d2d09883aac4278cf6fae') in 0.000427 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053866 seconds.
+  path: Assets/RFA/Common/Prefabs/Camera/CameraRig.prefab
+  artifactKey: Guid(80844b2319340044da27db99208a9eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Common/Prefabs/Camera/CameraRig.prefab using Guid(80844b2319340044da27db99208a9eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e2221722c862f1aa8da3c5990b3248') in 0.003891 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.099362 seconds.
+  path: Assets/RFA/Common/Scripts
+  artifactKey: Guid(fa6dd69d21e17ae43b6111862c2b6ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Common/Scripts using Guid(fa6dd69d21e17ae43b6111862c2b6ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5366d39ddf01b267bc7b860c61c3d647') in 0.000427 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.090118 seconds.
+  path: Assets/RFA/Common/Textures
+  artifactKey: Guid(38590578ef9cd1f46bd8e1aafdcd221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Common/Textures using Guid(38590578ef9cd1f46bd8e1aafdcd221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28fa0eddb28d0a83154fa3dbad8e0a1') in 0.000465 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.041877 seconds.
+  path: Assets/RFA/Default Render
+  artifactKey: Guid(a5b540c8f1eb83144a3499b7b17c7f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render using Guid(a5b540c8f1eb83144a3499b7b17c7f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b14d72becd8d0cf6f226c26d45d346') in 0.000744 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.173703 seconds.
+  path: Assets/RFA/Default Render/Models
+  artifactKey: Guid(0d780d7a0ec50d640b941ff1ecafdfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Models using Guid(0d780d7a0ec50d640b941ff1ecafdfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2646c9498cd717e07c90e6895e70a3') in 0.000414 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.870681 seconds.
+  path: Assets/RFA/Default Render/Models/RFA_Model.fbx
+  artifactKey: Guid(02165b8c9e350f749ba899eb7f5b1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Models/RFA_Model.fbx using Guid(02165b8c9e350f749ba899eb7f5b1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d74faca29abe6f1a658280b6ff6e7c9') in 0.467772 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 313
+========================================================================
+Received Import Request.
+  Time since last request: 1.309813 seconds.
+  path: Assets/RFA/Default Render/Materials
+  artifactKey: Guid(ec7f673d522d85e469f8b8c0ef1b8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Materials using Guid(ec7f673d522d85e469f8b8c0ef1b8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f0a2b03eaba4fcbf6255166d179d5d') in 0.000674 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074661 seconds.
+  path: Assets/RFA/Default Render/Materials/Armour.mat
+  artifactKey: Guid(0d775f42bca50060a0c2586c004edc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Materials/Armour.mat using Guid(0d775f42bca50060a0c2586c004edc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27a3038767f03e6417043ea9ba550ed') in 0.038853 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RFA/Default Render/Materials/Head.mat
+  artifactKey: Guid(1b80a5e39dec445994d6a9345b383bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Materials/Head.mat using Guid(1b80a5e39dec445994d6a9345b383bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bba7408374485887342ac7bc11a204') in 0.021451 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RFA/Default Render/Materials/Hair.mat
+  artifactKey: Guid(d42714a714873cfbc87f336a11dd46fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Materials/Hair.mat using Guid(d42714a714873cfbc87f336a11dd46fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02c6c997cf53346647fb15572b69d13') in 0.016077 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RFA/Default Render/Materials/Weapon.mat
+  artifactKey: Guid(56e79eb79cc0d8c808744552d4017f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Materials/Weapon.mat using Guid(56e79eb79cc0d8c808744552d4017f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb38316b54f3a72da65d0db036bde54') in 0.021016 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.240231 seconds.
+  path: Assets/RFA/Default Render/Materials/Extra
+  artifactKey: Guid(904feedfb3f33144eaa6c765b4613008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Materials/Extra using Guid(904feedfb3f33144eaa6c765b4613008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92b2a8bd14f21fea0e3daaad75f5f1b') in 0.000506 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067552 seconds.
+  path: Assets/RFA/Default Render/Materials/Extra/Ground_MAT.mat
+  artifactKey: Guid(42bd43a1458818d4999ff8fe0eac68b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RFA/Default Render/Materials/Extra/Ground_MAT.mat using Guid(42bd43a1458818d4999ff8fe0eac68b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f629a810b89d95f802054c8bc462971') in 0.014753 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.664970 seconds.
+  path: Assets/Playable Characters/RFA/URP
+  artifactKey: Guid(0f6aca9d779cc0b40b32b3bf7081eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP using Guid(0f6aca9d779cc0b40b32b3bf7081eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672f8218d793ed75e552396012dda242') in 0.001018 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.838113 seconds.
+  path: Assets/Playable Characters/RFA/URP/Scenes
+  artifactKey: Guid(bf5a133df4c68fa499897adff9e306ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Scenes using Guid(bf5a133df4c68fa499897adff9e306ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7524f7a8c0e7fec5388c33c3d1f2476') in 0.000743 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.334 seconds
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.434 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.806 seconds
-Domain Reload Profiling: 1139ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.968 seconds
+Domain Reload Profiling: 1400ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (209ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (258ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (807ms)
+	FinalizeReload (968ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (513ms)
+		SetupLoadedEditorAssemblies (630ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (424ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3696 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (209.8 KB). Loaded Objects now: 4221.
-Memory consumption went from 142.5 MB to 142.3 MB.
-Total: 2.418600 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.093500 ms MarkObjects: 2.037200 ms  DeleteObjects: 0.073300 ms)
+Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (209.9 KB). Loaded Objects now: 4286.
+Memory consumption went from 157.4 MB to 157.2 MB.
+Total: 2.899700 ms (FindLiveObjects: 0.246700 ms CreateObjectMapping: 0.112700 ms MarkObjects: 2.441300 ms  DeleteObjects: 0.097600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -244,55 +446,335 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 5.823797 seconds.
+  path: Assets/Playable Characters/RFA/URP/Scenes/RFA
+  artifactKey: Guid(b64edceff2bdccb4baa3bd27b73b0cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Scenes/RFA using Guid(b64edceff2bdccb4baa3bd27b73b0cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895ca09e5211c1e243ff05a1e197842b') in 0.005568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081056 seconds.
+  path: Assets/Playable Characters/RFA/URP/Scenes/RFA/LightingData.asset
+  artifactKey: Guid(5412e9710a8567d47b63d99dd5df05a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Scenes/RFA/LightingData.asset using Guid(5412e9710a8567d47b63d99dd5df05a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abffa5cd3d87ada63dee8a63486f53e') in 0.008919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.663980 seconds.
+  path: Assets/Playable Characters/RFA/URP/Prefabs
+  artifactKey: Guid(34b0a15d08137764a9033bf71a0b6002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Prefabs using Guid(34b0a15d08137764a9033bf71a0b6002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28de4f4a0fb99911869a2325b329eff') in 0.000631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066347 seconds.
+  path: Assets/Playable Characters/RFA/URP/Prefabs/Player-URP.prefab
+  artifactKey: Guid(15f9a6dab4c749943af11a085056ea56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Prefabs/Player-URP.prefab using Guid(15f9a6dab4c749943af11a085056ea56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8184f3b10af34e4df6ac3acbb7f8f1b') in 0.094801 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 649
+========================================================================
+Received Import Request.
+  Time since last request: 1.576553 seconds.
+  path: Assets/Playable Characters/RFA/URP/Models
+  artifactKey: Guid(76243ccaf2ea8c444ad5a8c6c5ed3145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Models using Guid(76243ccaf2ea8c444ad5a8c6c5ed3145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac946486b49f299486e5e4f31ba79f5') in 0.000928 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081191 seconds.
+  path: Assets/Playable Characters/RFA/URP/Models/RFA_Model.fbx
+  artifactKey: Guid(dbe4191aa8a702544aef194689f1c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Models/RFA_Model.fbx using Guid(dbe4191aa8a702544aef194689f1c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe073a32416f0cab311ba15d81311ce') in 0.084949 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 313
+========================================================================
+Received Import Request.
+  Time since last request: 1.166981 seconds.
+  path: Assets/Playable Characters/RFA/URP/Materials
+  artifactKey: Guid(748064c1f8adcd44d9283eefa748b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Materials using Guid(748064c1f8adcd44d9283eefa748b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907e63677249176e2307b41138a0fdd4') in 0.000544 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.082165 seconds.
+  path: Assets/Playable Characters/RFA/URP/Materials/Armour.mat
+  artifactKey: Guid(36744e4a07d737847a2e296e6c0360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Materials/Armour.mat using Guid(36744e4a07d737847a2e296e6c0360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29deee682db93b14eb07ec6bc20ab49f') in 0.028087 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Playable Characters/RFA/URP/Materials/Head.mat
+  artifactKey: Guid(625e91974f9a58a4da89c4a2405cd8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Materials/Head.mat using Guid(625e91974f9a58a4da89c4a2405cd8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0b145479cf613583cca92d31b327b8') in 0.016227 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.768479 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/RFAPostProcessingSettings.asset
+  artifactKey: Guid(ef0b41f8c370f464a94f91192e63529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/RFAPostProcessingSettings.asset using Guid(ef0b41f8c370f464a94f91192e63529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b2bf046d1bd9b1cff65bb75b0a8e61') in 0.001149 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.301833 seconds.
+  path: Assets/Playable Characters/RFA/Default Render/Prefabs/Player-Default.prefab
+  artifactKey: Guid(15a79c54f0de80a41955a50618f7c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/Default Render/Prefabs/Player-Default.prefab using Guid(15a79c54f0de80a41955a50618f7c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ed5d41c6c1ade4d8aa2dc7b4c3e73f') in 0.061359 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 649
+========================================================================
+Received Import Request.
+  Time since last request: 67.641880 seconds.
+  path: Assets/Playable Characters/RFA/URP/Materials/Extra
+  artifactKey: Guid(062184caf0afc9e4aa01a009bc85575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Materials/Extra using Guid(062184caf0afc9e4aa01a009bc85575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3edd3be3c2ad6041a56abc313810f82') in 0.001303 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.068277 seconds.
+  path: Assets/Playable Characters/RFA/URP/Materials/Extra/Ground_MAT.mat
+  artifactKey: Guid(a111a36b5d517594a966181bcd7d0ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Materials/Extra/Ground_MAT.mat using Guid(a111a36b5d517594a966181bcd7d0ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6bb7c74c9cb6c212387c6747c75292') in 0.006547 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.822088 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials/Armour.mat
+  artifactKey: Guid(8b0834fcfd8d6b341a9ad4831e31c253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials/Armour.mat using Guid(8b0834fcfd8d6b341a9ad4831e31c253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd88cf99a2f1d0b7c7c4b1e94f44954') in 0.010990 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials/Hair.mat
+  artifactKey: Guid(df26c239ea0cb9f499e9d8422f91fea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials/Hair.mat using Guid(df26c239ea0cb9f499e9d8422f91fea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cca869bba5cdc2661a451b499171d9') in 0.010327 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials/Clothes.mat
+  artifactKey: Guid(335866b40be452b47b3c446c89f376a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials/Clothes.mat using Guid(335866b40be452b47b3c446c89f376a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d53177c6123c7c426b4a6046b980c95') in 0.014691 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials/Weapon.mat
+  artifactKey: Guid(f54b623a405d30b4a85063bcb60a9287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials/Weapon.mat using Guid(f54b623a405d30b4a85063bcb60a9287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5cd0f63cb289446d8cb20132feb5fb') in 0.013882 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials/Clothes_MaskMap.png
+  artifactKey: Guid(d40afd23d31761b45b9ce8d6914c7f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials/Clothes_MaskMap.png using Guid(d40afd23d31761b45b9ce8d6914c7f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d73413ac57b75aea722c6cb996d3e') in 0.024449 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials/Hair_MaskMap.png
+  artifactKey: Guid(796efb0e29eccca4a8217082273e590f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials/Hair_MaskMap.png using Guid(796efb0e29eccca4a8217082273e590f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83989ee892e1fcd98bd7870479413928') in 0.010715 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 182.383761 seconds.
+  path: Assets/Playable Characters/RFA/Default Render/Scenes/RFA
+  artifactKey: Guid(362da016c0f89f744874e2f13763aa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/Default Render/Scenes/RFA using Guid(362da016c0f89f744874e2f13763aa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd471e7cf8b8417866a85af87b4303296') in 0.000959 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.086209 seconds.
+  path: Assets/Playable Characters/RFA/Default Render/Scenes/RFA/LightingData.asset
+  artifactKey: Guid(5e1659aa54fd218499f2b3eb6ab7fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/Default Render/Scenes/RFA/LightingData.asset using Guid(5e1659aa54fd218499f2b3eb6ab7fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c5b7da18745e6e7287ddaac042bd05') in 0.001112 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.464994 seconds.
+  path: Assets/Playable Characters/RFA/Default Render/Scenes/RFA/Materials/ReflectionProbe-0.mat
+  artifactKey: Guid(5942739e539d6e54c98cb0b7881556a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/Default Render/Scenes/RFA/Materials/ReflectionProbe-0.mat using Guid(5942739e539d6e54c98cb0b7881556a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8904a16a9339bec456787492cde95d8f') in 0.040245 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.380396 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials
+  artifactKey: Guid(ab684d6ac80c6bf4ea64fbf41b54fd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials using Guid(ab684d6ac80c6bf4ea64fbf41b54fd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e0972dd9b76ad40aedc184c9973425') in 0.000438 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.988834 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Models
+  artifactKey: Guid(2133695e2b80253449170f62389df161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Models using Guid(2133695e2b80253449170f62389df161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d7a2e9251d96383e810ec7051e0f8f') in 0.000636 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.586169 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Models/RFA_Model.fbx
+  artifactKey: Guid(ae8b5a7e1e17d234f8c19f2a21fa90f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Models/RFA_Model.fbx using Guid(ae8b5a7e1e17d234f8c19f2a21fa90f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0151dcb7a27be5e3d812414c88f51d') in 0.082604 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 318
+========================================================================
+Received Import Request.
+  Time since last request: 1.079940 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Prefabs
+  artifactKey: Guid(b897b1d393d7e604fa0f171591e7e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Prefabs using Guid(b897b1d393d7e604fa0f171591e7e66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85445127ecbd567a55846dc6ba9fa36f') in 0.000640 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080337 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Prefabs/Player-HDRP.prefab
+  artifactKey: Guid(24052545370909440a8eac7fa3635890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Prefabs/Player-HDRP.prefab using Guid(24052545370909440a8eac7fa3635890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b41cd71371019c7fd6e04e041b0bed4') in 0.064849 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 654
+========================================================================
+Received Import Request.
+  Time since last request: 0.690054 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Scenes
+  artifactKey: Guid(b05b6fcd4a0c59b43b230e68baaf57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Scenes using Guid(b05b6fcd4a0c59b43b230e68baaf57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef69155c9371a44b72229cc9b8af363') in 0.000536 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
 Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.336 seconds
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.406 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.869 seconds
-Domain Reload Profiling: 1204ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  1.055 seconds
+Domain Reload Profiling: 1459ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (206ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (870ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1056ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (566ms)
+		SetupLoadedEditorAssemblies (701ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (466ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (589ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3696 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (209.7 KB). Loaded Objects now: 4224.
-Memory consumption went from 142.5 MB to 142.3 MB.
-Total: 2.642300 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.112200 ms MarkObjects: 2.213200 ms  DeleteObjects: 0.073700 ms)
+Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (210.0 KB). Loaded Objects now: 4291.
+Memory consumption went from 157.8 MB to 157.6 MB.
+Total: 2.762200 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.101500 ms MarkObjects: 2.322000 ms  DeleteObjects: 0.119700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -310,185 +792,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2021903.750114 seconds.
-  path: Assets/Player Character/Crusader tank/New Scene.unity
-  artifactKey: Guid(deafa12360d19204590e1f7dd6fe7fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player Character/Crusader tank/New Scene.unity using Guid(deafa12360d19204590e1f7dd6fe7fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706069554cb5a4b2674f4c5a948d5a6e') in 0.006398 seconds
+  Time since last request: 340.748720 seconds.
+  path: Assets/Playable Characters/RFA/Common/Animations/RFA_Animator.controller
+  artifactKey: Guid(21c92b2a654c3f54b9c895fc880e122a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/Common/Animations/RFA_Animator.controller using Guid(21c92b2a654c3f54b9c895fc880e122a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14f397693779e3c3132fecc016e16ee') in 0.031863 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.992148 seconds.
-  path: Assets/SuperiorWorlds/Highlands/Mountains/FREE/Materials/Mesh Base Color.mat
-  artifactKey: Guid(2c0feba209c80b04e9347f52dabb3ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperiorWorlds/Highlands/Mountains/FREE/Materials/Mesh Base Color.mat using Guid(2c0feba209c80b04e9347f52dabb3ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3065b9ee4ff6ad42b8a68ded2d1dfef0') in 0.228653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 14.153511 seconds.
-  path: Assets/VladislavTsurikov
-  artifactKey: Guid(311f2f4be2e0c09499d2bf1dce68d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VladislavTsurikov using Guid(311f2f4be2e0c09499d2bf1dce68d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34db415cb3341435998e6e16929337a') in 0.000513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.560500 seconds.
-  path: Assets/UF Creator LITE
-  artifactKey: Guid(638fb24b8a8ba1d4c843fc979c9de96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UF Creator LITE using Guid(638fb24b8a8ba1d4c843fc979c9de96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7397027546d6b2e5c73628345197f4fa') in 0.000459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.374142 seconds.
-  path: Assets/SuperiorWorlds
-  artifactKey: Guid(9bc16175f8e7fb74b809c97666dfb9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperiorWorlds using Guid(9bc16175f8e7fb74b809c97666dfb9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e474498bc19e79418d2f2b69fe4f2168') in 0.000484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.726031 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(319f271f386c2b5449a7e38386bd75fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(319f271f386c2b5449a7e38386bd75fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44581d27d8a357f8e0eb406c9fdcb0de') in 0.000497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.228229 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f14a27734d15ee5c2f10ba0023feca4') in 0.000443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.301000 seconds.
-  path: Assets/Scenes/Dungeon Entrance.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Dungeon Entrance.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becb4709cbca23bc7f690857af902019') in 0.000444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.987771 seconds.
-  path: Assets/Scenes/Dungeon Floor 1.unity
-  artifactKey: Guid(7f571500df94af447a30ce0362dd6d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Dungeon Floor 1.unity using Guid(7f571500df94af447a30ce0362dd6d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fe4775591310b9758d9eab1d719d91') in 0.000464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.528921 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures
-  artifactKey: Guid(547dc1e76fb957e40b1d76175f4d934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures using Guid(547dc1e76fb957e40b1d76175f4d934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794d253a7296e3c34cc255075d35d125') in 0.000468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.697170 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt
-  artifactKey: Guid(22083d95b4249964287aee78fd90c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt using Guid(22083d95b4249964287aee78fd90c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1314182ac856ce1879ed12df914417a') in 0.000471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.531914 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo
-  artifactKey: Guid(5d141430ace3cc0408e31b23e56e08ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo using Guid(5d141430ace3cc0408e31b23e56e08ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3cfdd66092112f39f6a288d0856ea1') in 0.000479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.887725 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials
-  artifactKey: Guid(83f13a6693876d44dace90001e20ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials using Guid(83f13a6693876d44dace90001e20ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb4d9a22d1a62f381a44ceeef56f157') in 0.000501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.483471 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_grass height 12023054508611406.terrainlayer
-  artifactKey: Guid(6ef66abeaaaf40a47bdb26215509aebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_grass height 12023054508611406.terrainlayer using Guid(6ef66abeaaaf40a47bdb26215509aebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bff90dd03cb543c50aef3ba41de7db2') in 0.016476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.609943 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overdesatured_down.terrainlayer
-  artifactKey: Guid(a35f94c7d8dea164fa79fe7e62a3c4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overdesatured_down.terrainlayer using Guid(a35f94c7d8dea164fa79fe7e62a3c4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be9675968e19039cf5517ab682c8427') in 0.018961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.146177 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer.terrainlayer
-  artifactKey: Guid(d00f415280956e34aafe9f9add93e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer.terrainlayer using Guid(d00f415280956e34aafe9f9add93e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0e497f8270b74c250743b942628c41') in 0.014912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 2.terrainlayer
-  artifactKey: Guid(c9596995c83910a47a4acd06fdb3b027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 2.terrainlayer using Guid(c9596995c83910a47a4acd06fdb3b027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31109389d1cdfc35b5d4e7ab1c807273') in 0.014600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 5.terrainlayer
-  artifactKey: Guid(7642c1e1e32bf8745b61278680f19343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 5.terrainlayer using Guid(7642c1e1e32bf8745b61278680f19343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed4ece54aae6924161fc4abc1c74c41') in 0.014966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 9.terrainlayer
-  artifactKey: Guid(ee3dd4d767854794a9aaa178ad33010e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 9.terrainlayer using Guid(ee3dd4d767854794a9aaa178ad33010e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a209fb76b2a150918eb96bf46b81c83f') in 0.029490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 12.terrainlayer
-  artifactKey: Guid(df118c77a8d6b1c4e9c234467f76217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 12.terrainlayer using Guid(df118c77a8d6b1c4e9c234467f76217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb57516a57505150e0dec2bea3b246c') in 0.020763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 10.terrainlayer
-  artifactKey: Guid(112feed5f2078274db9d711316c8dab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 10.terrainlayer using Guid(112feed5f2078274db9d711316c8dab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6075b554b6d948f7920d0a163604bddf') in 0.046025 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 19.600856 seconds.
-  path: Assets/Piloto Studio/Readme/Scripts
-  artifactKey: Guid(7c98a4111ce91734e8ab98c007c3c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Piloto Studio/Readme/Scripts using Guid(7c98a4111ce91734e8ab98c007c3c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b736edef27161272b1213da8b7825d') in 0.000768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.732509 seconds.
-  path: Assets/Resources/Physics Simulation Settings.asset
-  artifactKey: Guid(72973e9a3a8982e40885a9624d070cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Physics Simulation Settings.asset using Guid(72973e9a3a8982e40885a9624d070cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84716dc48f6a9b4a5577b73d06d1bd0') in 0.000709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 32
