@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 32581 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16063 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Channing/The-3D-Game/GameTest
+D:/GamnigSpace/The-3D-Game/GameTest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65353
-Successfully changed project path to: C:/Users/Channing/The-3D-Game/GameTest
-C:/Users/Channing/The-3D-Game/GameTest
+55442
+Successfully changed project path to: D:/GamnigSpace/The-3D-Game/GameTest
+D:/GamnigSpace/The-3D-Game/GameTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +49,66 @@ C:/Users/Channing/The-3D-Game/GameTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17688] Host "[IP] 192.168.0.73 [Port] 0 [Flags] 2 [Guid] 374637411 [EditorId] 374637411 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQKB9BV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8976] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2284008971 [EditorId] 2284008971 [Version] 1048832 [Id] WindowsEditor(7,JUMPSTATION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17688] Host "[IP] 192.168.0.73 [Port] 0 [Flags] 2 [Guid] 374637411 [EditorId] 374637411 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SQKB9BV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8976] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2284008971 [EditorId] 2284008971 [Version] 1048832 [Id] WindowsEditor(7,JUMPSTATION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 20.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Channing/The-3D-Game/GameTest/Assets
+[Subsystems] Discovering subsystems at path D:/GamnigSpace/The-3D-Game/GameTest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
     Vendor:   NVIDIA
-    VRAM:     8031 MB
-    Driver:   31.0.15.3623
+    VRAM:     5979 MB
+    Driver:   31.0.15.3699
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006896 seconds.
-- Loaded All Assemblies, in  0.357 seconds
+Registered in 0.017783 seconds.
+- Loaded All Assemblies, in  0.566 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.228 seconds
-Domain Reload Profiling: 585ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.386 seconds
+Domain Reload Profiling: 948ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (119ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (191ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (179ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (229ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (387ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (170ms)
+		SetupLoadedEditorAssemblies (299ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (112ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,995 +116,530 @@ Domain Reload Profiling: 585ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.594 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\GamnigSpace\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GamnigSpace\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.986 seconds
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.753 seconds
-Domain Reload Profiling: 1346ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  1.931 seconds
+Domain Reload Profiling: 2914ms
+	BeginReloadAssembly (205ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (385ms)
-		LoadAssemblies (291ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (682ms)
+		LoadAssemblies (438ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (138ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (753ms)
+		AnalyzeDomain (358ms)
+			TypeCache.Refresh (319ms)
+				TypeCache.ScanAssembly (292ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1932ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (619ms)
+		SetupLoadedEditorAssemblies (1666ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (515ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (1467ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (20ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3727 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (240.8 KB). Loaded Objects now: 4229.
-Memory consumption went from 157.6 MB to 157.4 MB.
-Total: 2.942400 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.347000 ms  DeleteObjects: 0.180900 ms)
+Unloading 3882 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (239.4 KB). Loaded Objects now: 4389.
+Memory consumption went from 160.8 MB to 160.6 MB.
+Total: 10.310000 ms (FindLiveObjects: 0.499400 ms CreateObjectMapping: 0.632300 ms MarkObjects: 8.821900 ms  DeleteObjects: 0.354800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 106283.189844 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab
-  artifactKey: Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Blue.prefab using Guid(445a5c29e7f715947b713a753f242af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ceb92edcd2410e65f2350b52a1462d') in 0.185622 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 21905.218233 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Animations/DragonTerrorBringer/AttackWingClaw.fbx
+  artifactKey: Guid(dbbf408e4d195cf41bc2f3c7589b1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Animations/DragonTerrorBringer/AttackWingClaw.fbx using Guid(dbbf408e4d195cf41bc2f3c7589b1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd37cf557884018dd33256c39368461') in 0.288892 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 310
+Number of asset objects unloaded after import = 177
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Green.prefab
-  artifactKey: Guid(4e7d7ecd1eafb1746a1fcb020505943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonTerrorBringer/Green.prefab using Guid(4e7d7ecd1eafb1746a1fcb020505943c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884c9e3ade78cde43323bbff8049ec30') in 0.084699 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/Ambient Occlusion Map from Mesh lambert1.png
+  artifactKey: Guid(2f49032f2c735314e87819a965f1a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/Ambient Occlusion Map from Mesh lambert1.png using Guid(2f49032f2c735314e87819a965f1a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274e0c2bc117985fada7df51ca15f794') in 0.070256 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 238
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Black.prefab
-  artifactKey: Guid(09ade59177310454ba3c93ae4b7dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Black.prefab using Guid(09ade59177310454ba3c93ae4b7dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a2416fa6d275724176fde29722ccb7') in 0.080959 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enemy NPC's/Spiders/Materials/Ground.mat
+  artifactKey: Guid(89c49a5a8ed9c1e468aff71876bf80c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/Spiders/Materials/Ground.mat using Guid(89c49a5a8ed9c1e468aff71876bf80c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b423a16e986679b0c7a233a155e8210') in 0.111868 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 310
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Normal.png
+  artifactKey: Guid(75bd7c524ef90f241ac0abf909679e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Normal.png using Guid(75bd7c524ef90f241ac0abf909679e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15f4c1708b89b968601bedea90fbbd1') in 0.049785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab
-  artifactKey: Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Albino.prefab using Guid(aeb4794909bc89d43b72ad784903e0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52015434c66e99e3be268870ed30d3f3') in 0.078620 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  path: Assets/Enemy NPC's/Spiders/Textures/BlackWidowSpider Roughness.png
+  artifactKey: Guid(07fa72d12cb5bed43aea359883eab625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/Spiders/Textures/BlackWidowSpider Roughness.png using Guid(07fa72d12cb5bed43aea359883eab625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32406699b3e13ada449046e83057ebfe') in 0.034438 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 310
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Playable Characters/RFA/URP/Models/RFA_Model.fbx
+  artifactKey: Guid(dbe4191aa8a702544aef194689f1c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Models/RFA_Model.fbx using Guid(dbe4191aa8a702544aef194689f1c4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8724571693b02a1841eeedf11426e507') in 0.167552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 313
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red.prefab
-  artifactKey: Guid(eb58e8f2831a51f45a44a261e6710cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsPBR/Prefab/DragonUsurper/Red.prefab using Guid(eb58e8f2831a51f45a44a261e6710cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1045528b29233479371f7a8f5b8374') in 0.054275 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 310
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.432 seconds
-Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.064 seconds
-Domain Reload Profiling: 1496ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (206ms)
-		LoadAssemblies (275ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1065ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (671ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (554ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (209.9 KB). Loaded Objects now: 4241.
-Memory consumption went from 157.0 MB to 156.8 MB.
-Total: 3.032400 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.552100 ms  DeleteObjects: 0.085800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.464 seconds
-Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.046 seconds
-Domain Reload Profiling: 1509ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (233ms)
-		LoadAssemblies (298ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1047ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (662ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (554ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3696 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (209.8 KB). Loaded Objects now: 4244.
-Memory consumption went from 157.2 MB to 157.0 MB.
-Total: 2.875200 ms (FindLiveObjects: 0.267600 ms CreateObjectMapping: 0.122700 ms MarkObjects: 2.401000 ms  DeleteObjects: 0.083000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.471 seconds
-Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.956 seconds
-Domain Reload Profiling: 1425ms
-	BeginReloadAssembly (158ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (298ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (9ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (956ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (607ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (505ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3705 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (209.9 KB). Loaded Objects now: 4256.
-Memory consumption went from 157.4 MB to 157.2 MB.
-Total: 2.579400 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.118200 ms MarkObjects: 2.151700 ms  DeleteObjects: 0.074300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1354.650679 seconds.
-  path: Assets/Playable Characters/minotaur1/Animations/minotaur1@attack2.fbx
-  artifactKey: Guid(72eb57b335e505f49b7bf8f07cc98c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable Characters/minotaur1/Animations/minotaur1@attack2.fbx using Guid(72eb57b335e505f49b7bf8f07cc98c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8453ffa2548bc829fbf3e4981406c3') in 0.044995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 137
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Playable Characters/minotaur1/Animations/minotaur1@attack3.fbx
-  artifactKey: Guid(05590660f4e50e64687328f63b84c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable Characters/minotaur1/Animations/minotaur1@attack3.fbx using Guid(05590660f4e50e64687328f63b84c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da61b59dadcad1bcdf5c0187736f4d2d') in 0.005459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 137
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Playable Characters/minotaur1/Animations/minotaur1@walk_strafe_right45.fbx
-  artifactKey: Guid(b68bf00b532c9444c9caa40411435233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable Characters/minotaur1/Animations/minotaur1@walk_strafe_right45.fbx using Guid(b68bf00b532c9444c9caa40411435233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bd475256c21731842ddf50ad1ddb4c') in 0.003714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Playable Characters/minotaur1/Animations/minotaur1@attack5_kick.fbx
-  artifactKey: Guid(b6ac5f1b5d941db4585d707f2f2c3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable Characters/minotaur1/Animations/minotaur1@attack5_kick.fbx using Guid(b6ac5f1b5d941db4585d707f2f2c3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a8256376dfff6eea6fa3448f8ff59f') in 0.004096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Playable Characters/minotaur1/Animations/minotaur1@hit_2.fbx
-  artifactKey: Guid(54af2e78347a4ff4ea36a48e2f5ad471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable Characters/minotaur1/Animations/minotaur1@hit_2.fbx using Guid(54af2e78347a4ff4ea36a48e2f5ad471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d0e236a4e514c7c7348c2253655dfe') in 0.005207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Playable Characters/minotaur1/Animations/minotaur1@walk_strafe_left45.fbx
-  artifactKey: Guid(e8954b6b5219879479975cf9d5f7ddc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable Characters/minotaur1/Animations/minotaur1@walk_strafe_left45.fbx using Guid(e8954b6b5219879479975cf9d5f7ddc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549c5dc4984aab199e0e519f1ca61378') in 0.003778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 133
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Playable Characters/minotaur1/Animations/minotaur1@attack4_kick.fbx
-  artifactKey: Guid(2266cfaabe6e767489b2331a158fe7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable Characters/minotaur1/Animations/minotaur1@attack4_kick.fbx using Guid(2266cfaabe6e767489b2331a158fe7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e4b303122154b0f8cdecbd4f64c491') in 0.004240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 137
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.557 seconds
-Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.000 seconds
-Domain Reload Profiling: 1557ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (313ms)
-		LoadAssemblies (350ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (57ms)
-			TypeCache.Refresh (31ms)
-				TypeCache.ScanAssembly (14ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1001ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (610ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (496ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (210.0 KB). Loaded Objects now: 4259.
-Memory consumption went from 157.6 MB to 157.4 MB.
-Total: 2.943700 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.190900 ms MarkObjects: 2.350400 ms  DeleteObjects: 0.139600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 373.419398 seconds.
-  path: Assets/RFA/Common/Animations/RFA_Attack.fbx
-  artifactKey: Guid(8f130dfdeb07b1645bc7fdc8a0528f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Animations/RFA_Attack.fbx using Guid(8f130dfdeb07b1645bc7fdc8a0528f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3704303500abda63c00557b2945ca62') in 0.038819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 259
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/RFA/Common/Animations/RFA_TakingDamage.fbx
-  artifactKey: Guid(645f8aca4f4ba5845bc278bc9db51241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Animations/RFA_TakingDamage.fbx using Guid(645f8aca4f4ba5845bc278bc9db51241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa90719211c96ab16ab53c775cf84476') in 0.006966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 259
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RFA/Common/Animations/RFA_RunBackwardRight.fbx
-  artifactKey: Guid(e4bb60c1556966741bb7ce416e859e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Animations/RFA_RunBackwardRight.fbx using Guid(e4bb60c1556966741bb7ce416e859e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156235b06dc53ae846a74e6de1dc0ec8') in 0.005330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 259
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/RFA/Common/Animations/RFA_RunBackwardLeft.fbx
-  artifactKey: Guid(9703f696ba70c884da776387232619b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Animations/RFA_RunBackwardLeft.fbx using Guid(9703f696ba70c884da776387232619b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456b24aa44360da5e735b7700dc2e066') in 0.004192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 259
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/RFA/Common/Animations/RFA_Stun.fbx
-  artifactKey: Guid(bf08f99d9e14eee4ab79f9206fb35921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Animations/RFA_Stun.fbx using Guid(bf08f99d9e14eee4ab79f9206fb35921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757da6a068858cf199fb278c931199bb') in 0.005978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 259
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/RFA/Common/Animations/RFA_Jump.fbx
-  artifactKey: Guid(4a32f194c8c0f2548b10d6ede9c0d1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Animations/RFA_Jump.fbx using Guid(4a32f194c8c0f2548b10d6ede9c0d1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7866f503a09395a388169280a3ef6e9') in 0.004588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 259
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/RFA/Common/Animations/RFA_Idle.fbx
-  artifactKey: Guid(c745ea50a20486f4a976bc20032453eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Animations/RFA_Idle.fbx using Guid(c745ea50a20486f4a976bc20032453eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b149be5a477c5475510c166eb1e4bb') in 0.005154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 259
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RFA/Common/Animations/RFA_RunLeft.fbx
-  artifactKey: Guid(c0547b69f0b02644daf2c3159d5550dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Animations/RFA_RunLeft.fbx using Guid(c0547b69f0b02644daf2c3159d5550dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafbb0d374fd6c29e8c0508f4f4b47c8') in 0.004799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 259
-========================================================================
-Received Import Request.
-  Time since last request: 1.417611 seconds.
-  path: Assets/RFA/Common/Models/RFA_demo_props_01.obj
-  artifactKey: Guid(c93e194aa70989749b9705958ee6797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Models/RFA_demo_props_01.obj using Guid(c93e194aa70989749b9705958ee6797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f0e763dd3a3ac20654c75811bfc826') in 0.090615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 14.017873 seconds.
-  path: Assets/RFA/Common/Textures/Armour_Normal.tga
-  artifactKey: Guid(99d7f0a81cba15470863f1a13a0c5f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Armour_Normal.tga using Guid(99d7f0a81cba15470863f1a13a0c5f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2511f3f88d6208914a7fc6762504221a') in 0.030961 seconds
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png
+  artifactKey: Guid(9a588cc5059a96f40b3478c86f621f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png using Guid(9a588cc5059a96f40b3478c86f621f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4bc4f0312586e9c2d7d9a62896fa72') in 0.048138 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/RFA/Common/Textures/Armour_Specular.tga
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Emission.png
+  artifactKey: Guid(99084f8746e185747be96301282d6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/ForSP_lambert1_Emission.png using Guid(99084f8746e185747be96301282d6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f31ee8d5904fed61f3b7bdca6132c4') in 0.034498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Playable Characters/RFA/URP/Materials/Extra/Ground_MAT.mat
+  artifactKey: Guid(a111a36b5d517594a966181bcd7d0ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Materials/Extra/Ground_MAT.mat using Guid(a111a36b5d517594a966181bcd7d0ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2420913127ceb06086ad3f4cb4bff95') in 0.026201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials/Extra/Ground_MAT.mat
+  artifactKey: Guid(8b558332a6b4541449ca57f7f63ca5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials/Extra/Ground_MAT.mat using Guid(8b558332a6b4541449ca57f7f63ca5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32622dd1a39e47a4f43e49e82be2b76d') in 0.021688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/Ambient Occlusion Map from Mesh lambert1.png
+  artifactKey: Guid(f2e095f24f6d6d642a864e0d622f79c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Green/Ambient Occlusion Map from Mesh lambert1.png using Guid(f2e095f24f6d6d642a864e0d622f79c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebf9939b232496a09f278afdf3de6b5') in 0.041141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Playable Characters/RFA/Common/Textures/Armour_Specular.tga
   artifactKey: Guid(1f65defc14c03e0931ac9057c7231a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Armour_Specular.tga using Guid(1f65defc14c03e0931ac9057c7231a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27916d562e66acc5091e2e29f4ef538') in 0.019412 seconds
+Start importing Assets/Playable Characters/RFA/Common/Textures/Armour_Specular.tga using Guid(1f65defc14c03e0931ac9057c7231a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5141b10a5d4358558cdc399291565f') in 0.034096 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/RFA/Common/Textures/Weapon_Specular.tga
-  artifactKey: Guid(d219334ac72fad9ab4088d05b72a5cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Weapon_Specular.tga using Guid(d219334ac72fad9ab4088d05b72a5cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd236ef984a8d4974eeeeb97ac2184dac') in 0.025350 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Playable Characters/RFA/Default Render/Materials/Extra/Ground_MAT.mat
+  artifactKey: Guid(42bd43a1458818d4999ff8fe0eac68b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/Default Render/Materials/Extra/Ground_MAT.mat using Guid(42bd43a1458818d4999ff8fe0eac68b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f075c65bf06cc5858fbe29aba6d2368') in 0.022690 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/RFA/Common/Textures/Weapon_BaseColor.tga
-  artifactKey: Guid(a79c44df6a0eda62c74618d854b229b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Weapon_BaseColor.tga using Guid(a79c44df6a0eda62c74618d854b229b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9cc5aa7ffb1fdcf653e24af1b34088') in 0.033201 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Flame Attack.fbx
+  artifactKey: Guid(b39c8cd2e979bd0458d96f045c9e4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Animations/DragonTerrorBringer/Flame Attack.fbx using Guid(b39c8cd2e979bd0458d96f045c9e4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ca1111ead826fa97de08ce170046c7') in 0.048873 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 177
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/RFA/Common/Textures/Weapon_Normal.tga
-  artifactKey: Guid(6b1c317e63a365d7cedd8f214568c08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Weapon_Normal.tga using Guid(6b1c317e63a365d7cedd8f214568c08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29bae05fb7134fb7a1ff576ed8b19b8') in 0.019040 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/Enemy NPC's/Spiders/Materials/BlackWidow.mat
+  artifactKey: Guid(f1440c45c83e1c24cadad18a818f6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/Spiders/Materials/BlackWidow.mat using Guid(f1440c45c83e1c24cadad18a818f6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af025f7d2a15d1ebdec4b047dffe3e25') in 0.073805 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/RFA/Common/Textures/Head_AO.tga
-  artifactKey: Guid(520c72be6f36dca3b03bb4cc38e0c684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Head_AO.tga using Guid(520c72be6f36dca3b03bb4cc38e0c684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb3a8c4b5bb1bb799e96029739dc146') in 0.019585 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/RFA/Common/Textures/Hair_Specular.tga
-  artifactKey: Guid(82d3e72beb057ebb884bb61234af1e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Hair_Specular.tga using Guid(82d3e72beb057ebb884bb61234af1e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a2066ac3a0609f89079d7b808d0df4') in 0.018048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RFA/Common/Textures/Head_Normal.tga
-  artifactKey: Guid(3a6f5629ed77cce4b7eab10f2281f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Head_Normal.tga using Guid(3a6f5629ed77cce4b7eab10f2281f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d51b97802a190b0a10c18d20860e7c') in 0.015705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RFA/Common/Textures/Clothes_BaseColor.tga
-  artifactKey: Guid(d58fb650987d91652c078f8da9431d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RFA/Common/Textures/Clothes_BaseColor.tga using Guid(d58fb650987d91652c078f8da9431d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eb0fbf7db0b6d376efc043987957c3') in 0.021018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.457 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.973 seconds
-Domain Reload Profiling: 1428ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (221ms)
-		LoadAssemblies (298ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (973ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (632ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (528ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (209.9 KB). Loaded Objects now: 4301.
-Memory consumption went from 158.2 MB to 158.0 MB.
-Total: 2.978700 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.101200 ms MarkObjects: 2.554400 ms  DeleteObjects: 0.089100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 673.781579 seconds.
-  path: Assets/UF Creator LITE/FBX/Guardhouses_1A(Gr).fbx
-  artifactKey: Guid(2112854f9c1e1bd4abf766d44f57f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UF Creator LITE/FBX/Guardhouses_1A(Gr).fbx using Guid(2112854f9c1e1bd4abf766d44f57f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bed28cd9da8d29993987a56c9ce2f9') in 0.241004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 90
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UF Creator LITE/FBX/Objects_1A(Gr).fbx
-  artifactKey: Guid(313bd528678239b46871dc7d959fd48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UF Creator LITE/FBX/Objects_1A(Gr).fbx using Guid(313bd528678239b46871dc7d959fd48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70eddb35e071a31e8bc0d4ca32929ed') in 0.175770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 105
-========================================================================
-Received Import Request.
-  Time since last request: 1.425654 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_MetalnessAoGloss.tif
-  artifactKey: Guid(076f4a8546d47fd439387c728ef8e2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_MetalnessAoGloss.tif using Guid(076f4a8546d47fd439387c728ef8e2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88acd923149dbfd4604ecb66255371db') in 0.027952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneArchDEP_ST_Normal.png
-  artifactKey: Guid(6c6375a83c5b9a44eb98f1828ad9b0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneArchDEP_ST_Normal.png using Guid(6c6375a83c5b9a44eb98f1828ad9b0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd194163a693d887744a3226b6a28fa07') in 0.043583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_STMetalnessAoGloss.tif
-  artifactKey: Guid(354d7bd2cc1424d4386c884d396d9645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_STMetalnessAoGloss.tif using Guid(354d7bd2cc1424d4386c884d396d9645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5f1e0c96d9e350228a4bf9453cd29a') in 0.031628 seconds
+  Time since last request: 0.000052 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(0760f6a30fd4ed143a90354ff29f7969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Red/ForSP_lambert1_AlbedoTransparency.png using Guid(0760f6a30fd4ed143a90354ff29f7969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a738e91a92cf86b3f2268e99de3c7a') in 0.035286 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureHeadDEP_ST_Normal.png
-  artifactKey: Guid(b6a3a7ffe8041104d8d6213bf9558189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureHeadDEP_ST_Normal.png using Guid(b6a3a7ffe8041104d8d6213bf9558189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db66c833d3b6c7e333bcd9859d664dd') in 0.035666 seconds
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Animations/DragonNightMare/Claw Attack.fbx
+  artifactKey: Guid(a8d68f882ac2f2f48982204cc9c22f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Animations/DragonNightMare/Claw Attack.fbx using Guid(a8d68f882ac2f2f48982204cc9c22f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ea24b16b735f3d7af4bbbf4d857b88') in 0.048992 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_MetalnessAoGloss.tif
-  artifactKey: Guid(64d0437b34a2a4548a0dcbf870269980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_MetalnessAoGloss.tif using Guid(64d0437b34a2a4548a0dcbf870269980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14cc9dea4517ee9b5160285dfc202e6') in 0.020122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileC2DEP_ST_Norma.png
-  artifactKey: Guid(ef00eeb07ce32d041862702f2e2a1358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileC2DEP_ST_Norma.png using Guid(ef00eeb07ce32d041862702f2e2a1358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7c8592e259648842d22a86d77fe52a') in 0.019994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SuportBeamDEP_ST_Albedo.png
-  artifactKey: Guid(5c708f9598e7ee94485f27d4c6abac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SuportBeamDEP_ST_Albedo.png using Guid(5c708f9598e7ee94485f27d4c6abac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde7d39185a8c1697be3ce7b0795e2e7') in 0.022638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_Normal.png
-  artifactKey: Guid(cfa155e02f0342d4f9fc657eced272e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_Normal.png using Guid(cfa155e02f0342d4f9fc657eced272e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2dfdaf0b3ff05bf8bd06ce0d23f835') in 0.020786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_ST_Albedo.png
-  artifactKey: Guid(638786117e9ed9a4793f3ea267b71ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_ST_Albedo.png using Guid(638786117e9ed9a4793f3ea267b71ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1aa5c03403bd40b54c6a34e3b4c274') in 0.017066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_Hight.png
-  artifactKey: Guid(86e8cf1e81f399f4492815db0f4fe4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileADEP_ST_Hight.png using Guid(86e8cf1e81f399f4492815db0f4fe4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c678bd9b7cc26205b262964b641d8d2') in 0.021320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 155
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/WallPropsDEP_ST_Albedo.png
-  artifactKey: Guid(5b2f89d557533934ea314ec6f13a764a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/WallPropsDEP_ST_Albedo.png using Guid(5b2f89d557533934ea314ec6f13a764a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8816e1c2268423bb55801b59fbd728') in 0.036241 seconds
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(7e3db3d93b6a61441a0a146003ece867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_MetallicSmoothness.png using Guid(7e3db3d93b6a61441a0a146003ece867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fb9b2a76566958421e6d8dbbb91917') in 0.113794 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/WallPropsDEP_ST_Normal.png
-  artifactKey: Guid(1194294a3ff1e0146a2104bd8cbe0468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/WallPropsDEP_ST_Normal.png using Guid(1194294a3ff1e0146a2104bd8cbe0468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ba1cd5945d584fdba630d439f0528e') in 0.034132 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/FloorPropsDEP_ST_Normal.png
+  artifactKey: Guid(af821722896e2f34eb66d5509b5358cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/FloorPropsDEP_ST_Normal.png using Guid(af821722896e2f34eb66d5509b5358cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd039d8508a4d82bd05755ef2c59e91a8') in 0.045010 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/RawStoneDEP_ST_Albedo.png
-  artifactKey: Guid(b42f8b9dc5a298c4f9d42c62274c69ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/RawStoneDEP_ST_Albedo.png using Guid(b42f8b9dc5a298c4f9d42c62274c69ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00e619cdccec735d6651783a0ee751d') in 0.017707 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Models/RFA_Model.fbx
+  artifactKey: Guid(ae8b5a7e1e17d234f8c19f2a21fa90f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Models/RFA_Model.fbx using Guid(ae8b5a7e1e17d234f8c19f2a21fa90f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f96c606ced7f840cd16dd85f2e52c78') in 0.172341 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 318
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_MetalnessAoGloss.tif
-  artifactKey: Guid(42778a73970795444a19456f20ee159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_MetalnessAoGloss.tif using Guid(42778a73970795444a19456f20ee159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60535b412554d500eaac7019328b6d2') in 0.020641 seconds
+  Time since last request: 3.896168 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Materials/Green.mat
+  artifactKey: Guid(45196e0718c3f0b4bb0cf5d67e5788c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Materials/Green.mat using Guid(45196e0718c3f0b4bb0cf5d67e5788c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e4e2b116d2d27934f8a78a6cfb4d4d') in 0.022647 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_Albedo C.png
-  artifactKey: Guid(65b9eb2a7a54e164e830bbee63bf0dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_Albedo C.png using Guid(65b9eb2a7a54e164e830bbee63bf0dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c22a516db0411dd536728841b65eff5') in 0.021746 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Materials/Red.mat
+  artifactKey: Guid(17f1fa6369c450e499c427882c041f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Materials/Red.mat using Guid(17f1fa6369c450e499c427882c041f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1bde29610a2121184847865db4b977') in 0.023863 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (190.4 KB). Loaded Objects now: 4439.
+Memory consumption went from 101.3 MB to 101.1 MB.
+Total: 8.266100 ms (FindLiveObjects: 0.501800 ms CreateObjectMapping: 0.566700 ms MarkObjects: 6.966000 ms  DeleteObjects: 0.230000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureGround_ST_Albedo.tif
-  artifactKey: Guid(0a7536c1f6ec2e24f90200fd4364d451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureGround_ST_Albedo.tif using Guid(0a7536c1f6ec2e24f90200fd4364d451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c29ba8c02ebe58f9f8aeea2eacbb30') in 0.020189 seconds
+  Time since last request: 81.930061 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Materials/Black.mat
+  artifactKey: Guid(049959c83f0140d4f98849e945f0d44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Materials/Black.mat using Guid(049959c83f0140d4f98849e945f0d44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed03eb31e7b68ddb38b41a5548d6ba58') in 0.025351 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/WallPropsDEP_ST_MetalnessAoGloss.tif
-  artifactKey: Guid(9526e5f374a153c488f1b7a8b388d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/WallPropsDEP_ST_MetalnessAoGloss.tif using Guid(9526e5f374a153c488f1b7a8b388d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1035e7a68947b5e6172c488d1d10c90f') in 0.032924 seconds
+  Time since last request: 80.643175 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png
+  artifactKey: Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png using Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b1e408e10198e11132b695a8006fcc') in 0.355181 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/GridA.png
-  artifactKey: Guid(5a59e5a369c0ac04d83b2ea71e8b5d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/GridA.png using Guid(5a59e5a369c0ac04d83b2ea71e8b5d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c206e707afcf8fe494b0b4d23ca67b') in 0.016167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_ST_MetalnessAoGloss.tif
-  artifactKey: Guid(4a3143fa2218a474d80579ded6860078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_ST_MetalnessAoGloss.tif using Guid(4a3143fa2218a474d80579ded6860078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e0d383e880b8a998cd99c028470c9f') in 0.027838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/PillarADEP_ST_Albedo.png
-  artifactKey: Guid(dd5982a2b59f55a4588f257c6c00fd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/PillarADEP_ST_Albedo.png using Guid(dd5982a2b59f55a4588f257c6c00fd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfe8335c411b09b33335edc1782ed88') in 0.020653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGatesBDEP_Albedo.tif
-  artifactKey: Guid(8ca05502cf3832f4487da57b2491bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGatesBDEP_Albedo.tif using Guid(8ca05502cf3832f4487da57b2491bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1523a69e2d2ee350a1b9148f6a1c4399') in 0.036809 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Albedo.png
+  artifactKey: Guid(844bf0ef5f8bd4c43874ecad3c26e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/Albedo.png using Guid(844bf0ef5f8bd4c43874ecad3c26e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b04c6aec05a42bbe46455a3a7915b88') in 0.090755 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/PillarA2DEP_ST_Albedo.png
-  artifactKey: Guid(a62e39fb9fecbaa43b0ae8be229db9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/PillarA2DEP_ST_Albedo.png using Guid(a62e39fb9fecbaa43b0ae8be229db9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7676f595ad408f9bda6f33d8699185') in 0.025332 seconds
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/AO.png
+  artifactKey: Guid(9cb92b3140d176044b746047f0c9b5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonSoulEater/Blue/AO.png using Guid(9cb92b3140d176044b746047f0c9b5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86be1b7534e6573e57a1e4c7d68830fe') in 0.054386 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_Normal.png
-  artifactKey: Guid(cf5276247c8035348a2248e66c6cb6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_Normal.png using Guid(cf5276247c8035348a2248e66c6cb6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8487dbc25e5c6b2e53f0b2a07d4e227c') in 0.017768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneArchDEP_ST_Albedo.png
-  artifactKey: Guid(78087a9cffa049f4586cd75f9bd78ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneArchDEP_ST_Albedo.png using Guid(78087a9cffa049f4586cd75f9bd78ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca38eb379dca58d6c0511d79e1476eb') in 0.022610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/GridB.png
-  artifactKey: Guid(7c066ee914435b747a460f7e5a762b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/GridB.png using Guid(7c066ee914435b747a460f7e5a762b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab02e84840d5feb7c6ec63a3629640f') in 0.019503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/PillarADEP_ST_Normal.png
-  artifactKey: Guid(c1af4c5ca40763149ae51ed5c0e3fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/PillarADEP_ST_Normal.png using Guid(c1af4c5ca40763149ae51ed5c0e3fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3762d8a6ef8550c31a06d26ebbc67887') in 0.034807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_Albedo B.png
-  artifactKey: Guid(80360f6ce90eda347bb5169c2c69fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/SandStoneDEEP_Albedo B.png using Guid(80360f6ce90eda347bb5169c2c69fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10eea5d7beaa5babd15209b96f0224de') in 0.019054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_SpecularWet.tif
-  artifactKey: Guid(fca3355b9d2aa9047a1d0f8631b04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneTileBDEP_SpecularWet.tif using Guid(fca3355b9d2aa9047a1d0f8631b04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8513161f0624ade0784ff35c4864ee1') in 0.020680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/PillarA2DEP_ST_Normal.png
-  artifactKey: Guid(f1d77d02f5b876745b5e2fbd3843edcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/PillarA2DEP_ST_Normal.png using Guid(f1d77d02f5b876745b5e2fbd3843edcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676b6d17e1c6fb528da46d3e1cf44214') in 0.038358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneArchDEP_ST_MetalnessAoGloss.tif
-  artifactKey: Guid(46626c8fddecc8644a70f5f36158dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/StoneArchDEP_ST_MetalnessAoGloss.tif using Guid(46626c8fddecc8644a70f5f36158dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0130b9c304893c71b5d567848ee7349') in 0.035438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.846921 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureHeadDEP_ST.prefab
-  artifactKey: Guid(19f0d44f83181c64aaee4796197eb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureHeadDEP_ST.prefab using Guid(19f0d44f83181c64aaee4796197eb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2b0c9aeecc412d010dc182b29041cf') in 0.477735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA01ADEP.prefab
-  artifactKey: Guid(a017b7cfc91c81844ae3bc1ed6d84d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA01ADEP.prefab using Guid(a017b7cfc91c81844ae3bc1ed6d84d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eecb79b91b90010c803c08134d40277') in 0.026714 seconds
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png
+  artifactKey: Guid(8884154dfe85442a3a3578be807dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png using Guid(8884154dfe85442a3a3578be807dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f83a8eb39d52f21438f79b0046eca8') in 0.066051 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/AO.png
+  artifactKey: Guid(8b3e101d8395b6e4dbbf87c03e4fd446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonSoulEater/Red/AO.png using Guid(8b3e101d8395b6e4dbbf87c03e4fd446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d53e60401c100d10606540576ede7ea') in 0.041899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/AO.png
+  artifactKey: Guid(393a2880b0756264b85380c4b1ed0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Dark/AO.png using Guid(393a2880b0756264b85380c4b1ed0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4684550ac4a38b992dc34682ba1aa6ee') in 0.044868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Albedo.png
+  artifactKey: Guid(fef97105f9e18dd48bcca337e11f7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonNightmare/Green/Albedo.png using Guid(fef97105f9e18dd48bcca337e11f7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39c591918d30b6cef9b9e1d3fd93ab0') in 0.041922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Albedo.png
+  artifactKey: Guid(30e23c4143f61224a86d7e92cd73264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Albino/Albedo.png using Guid(30e23c4143f61224a86d7e92cd73264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de92675fd59913240e9071c573b5685') in 0.034599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/AO.png
+  artifactKey: Guid(c0271b76d281ea141b443bd6a9d5187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Blue/AO.png using Guid(c0271b76d281ea141b443bd6a9d5187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a42a1e2693e7be29212ca94b09c79b') in 0.041086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Albedo.png
+  artifactKey: Guid(ee296f39b4ba6684bb7472b54e7562e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonSoulEater/green/Albedo.png using Guid(ee296f39b4ba6684bb7472b54e7562e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ca94e2cfb9fc8e5e12747e5fafeef7') in 0.032328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Albedo.png
+  artifactKey: Guid(6de25e60bb604e44aa57ebbbaaff9b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonUsurper/Red/Albedo.png using Guid(6de25e60bb604e44aa57ebbbaaff9b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67476d8f0f7a49d7d254eca9215f1eee') in 0.033499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png
+  artifactKey: Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png using Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43936e37e95d28b8e9bf155e5976e6fb') in 0.030963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/AO.png
+  artifactKey: Guid(cf7cc70ea5ed3c046aec3919aa28e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonSoulEater/purple/AO.png using Guid(cf7cc70ea5ed3c046aec3919aa28e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25fdb9f8d4968cc7590a56dea012dbe') in 0.043510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonNightmare/Green/AO.png
+  artifactKey: Guid(81e51e6b3e5f2b74b93f37958dfe4035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonNightmare/Green/AO.png using Guid(81e51e6b3e5f2b74b93f37958dfe4035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1fc259d60aa39a794ab384cc2f911f') in 0.042737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamDDEP_ST.prefab
-  artifactKey: Guid(86aec6df794e71547af8e1258dbb0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamDDEP_ST.prefab using Guid(86aec6df794e71547af8e1258dbb0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bb2f0ebbc1068ccd2bceddfd33b7e8') in 0.021109 seconds
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Albedo.png
+  artifactKey: Guid(40a24f21b8d76e84ea00eb5b0570852f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Texture/DragonNightmare/Blue/Albedo.png using Guid(40a24f21b8d76e84ea00eb5b0570852f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e949acf13074cfc7a7c33638fc1173e') in 0.038183 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarADEP_ST.prefab
-  artifactKey: Guid(6f4246912bea49942a823a954f93d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarADEP_ST.prefab using Guid(6f4246912bea49942a823a954f93d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984d8a084badaf57872084972e55d421') in 0.054164 seconds
+  Time since last request: 1573.996659 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat
+  artifactKey: Guid(2cc3d51c3b46bec4a95b1cf2d2488afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Materials/DragonTerrorBringer/AlbinoPBR.mat using Guid(2cc3d51c3b46bec4a95b1cf2d2488afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ce45cee2c63b59686ac3378534e4fc') in 0.353440 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab
-  artifactKey: Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab using Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509c27bf2173b97454ea95884e59e8c4') in 0.446995 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Materials/DragonNightmare/BluePBR.mat
+  artifactKey: Guid(81d2b67dc7484724095d4343217c4e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Materials/DragonNightmare/BluePBR.mat using Guid(81d2b67dc7484724095d4343217c4e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009b8e52a5c1d26a1ee372c7f53bbb83') in 0.072588 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 70
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Playable Characters/RFA/URP/Materials/Armour.mat
+  artifactKey: Guid(36744e4a07d737847a2e296e6c0360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Materials/Armour.mat using Guid(36744e4a07d737847a2e296e6c0360d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c77b1408b52a3a9fe9777938976e883') in 0.099072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UF Creator LITE/FBX/Materials/Camp_Supply_1A2.mat
+  artifactKey: Guid(5e46f572c3158544cacd657fb07fdf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UF Creator LITE/FBX/Materials/Camp_Supply_1A2.mat using Guid(5e46f572c3158544cacd657fb07fdf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0428b8184a63b54a820133917be13fe0') in 0.039591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Playable Characters/RFA/URP/Materials/Clothes.mat
+  artifactKey: Guid(553956f69de5cff4ab77b3290fc79a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/URP/Materials/Clothes.mat using Guid(553956f69de5cff4ab77b3290fc79a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1789fdd7b9f7d621551380f6a668da') in 0.029792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Playable Characters/RFA/HDRP/Materials/Clothes.mat
+  artifactKey: Guid(335866b40be452b47b3c446c89f376a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/HDRP/Materials/Clothes.mat using Guid(335866b40be452b47b3c446c89f376a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4ea0e013cae6cb1acd872e9cb654a1') in 0.057516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Playable Characters/RFA/Default Render/Materials/Clothes.mat
+  artifactKey: Guid(8796fe0cc2171676ff5f37a09c33f932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/Default Render/Materials/Clothes.mat using Guid(8796fe0cc2171676ff5f37a09c33f932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb07599a6b4cc440444c2bc24a974f7') in 0.035799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Playable Characters/RFA/Common/Models/RFA_demo_props_02.obj
+  artifactKey: Guid(2df21ad9dbfafe84e97d1dd2cdfba130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Playable Characters/RFA/Common/Models/RFA_demo_props_02.obj using Guid(2df21ad9dbfafe84e97d1dd2cdfba130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc3f3ea97503e7ccc6e43ba7c893a53') in 0.108859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Materials/DragonNightmare/AlbinoPBR.mat
+  artifactKey: Guid(8000a685f5b509b45b455c9ffd1f347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Materials/DragonNightmare/AlbinoPBR.mat using Guid(8000a685f5b509b45b455c9ffd1f347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7a217d5e76518cf1ac95c79da3c899') in 0.077933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/UF Creator LITE/FBX/Materials/Castle_Detail_Map_1A.mat
+  artifactKey: Guid(2283cf45d343ad94bb376d5ab9a61e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UF Creator LITE/FBX/Materials/Castle_Detail_Map_1A.mat using Guid(2283cf45d343ad94bb376d5ab9a61e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5e317e199a180779a640ff03935b01') in 0.129449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.432 seconds
-Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\GamnigSpace\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GamnigSpace\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.734 seconds
+Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.052 seconds
-Domain Reload Profiling: 1483ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  2.625 seconds
+Domain Reload Profiling: 3356ms
+	BeginReloadAssembly (271ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (271ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (447ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1053ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2626ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (647ms)
+		SetupLoadedEditorAssemblies (1828ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (547ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (1621ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (210.0 KB). Loaded Objects now: 4304.
-Memory consumption went from 158.3 MB to 158.1 MB.
-Total: 3.021600 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.370400 ms MarkObjects: 2.312500 ms  DeleteObjects: 0.082800 ms)
+Unloading 3850 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (209.0 KB). Loaded Objects now: 4443.
+Memory consumption went from 161.1 MB to 160.9 MB.
+Total: 10.208000 ms (FindLiveObjects: 0.576200 ms CreateObjectMapping: 0.851800 ms MarkObjects: 8.486500 ms  DeleteObjects: 0.290600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -1119,57 +654,58 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Channing\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.416 seconds
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\GamnigSpace\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GamnigSpace\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.458 seconds
-Domain Reload Profiling: 1873ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  3.139 seconds
+Domain Reload Profiling: 3876ms
+	BeginReloadAssembly (257ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (270ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (473ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1459ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3141ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (794ms)
+		SetupLoadedEditorAssemblies (2216ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (641ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (1920ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 10.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3705 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (210.0 KB). Loaded Objects now: 4307.
-Memory consumption went from 158.6 MB to 158.3 MB.
-Total: 4.058300 ms (FindLiveObjects: 0.233200 ms CreateObjectMapping: 0.267300 ms MarkObjects: 3.324100 ms  DeleteObjects: 0.232300 ms)
+Unloading 3850 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (209.0 KB). Loaded Objects now: 4446.
+Memory consumption went from 161.1 MB to 160.9 MB.
+Total: 14.387300 ms (FindLiveObjects: 1.141500 ms CreateObjectMapping: 1.410000 ms MarkObjects: 11.486200 ms  DeleteObjects: 0.344600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
