@@ -10,7 +10,8 @@ public class PlayerController : MonoBehaviour
     private bool isMoving;
     public float speed;
     public float rotationSpeed;
-    
+    public float gravity = 9.81f;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -22,6 +23,9 @@ public class PlayerController : MonoBehaviour
         // Get input from the WASD keys or arrow keys.
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
+
+        Vector3 gravityVector = Vector3.down * gravity * Time.deltaTime;
+        characterController.Move(gravityVector);
 
         // Calculate the movement vector.
         Vector3 movement = new Vector3(horizontalInput, 0.0f, verticalInput);
