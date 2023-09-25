@@ -15,7 +15,7 @@ D:/GamnigSpace/The-3D-Game/GameTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51186
+50172
 Successfully changed project path to: D:/GamnigSpace/The-3D-Game/GameTest
 D:/GamnigSpace/The-3D-Game/GameTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/GamnigSpace/The-3D-Game/GameTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12796] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 1137461991 [EditorId] 1137461991 [Version] 1048832 [Id] WindowsEditor(7,JUMPSTATION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7292] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 1218256325 [EditorId] 1218256325 [Version] 1048832 [Id] WindowsEditor(7,JUMPSTATION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12796] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 1137461991 [EditorId] 1137461991 [Version] 1048832 [Id] WindowsEditor(7,JUMPSTATION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7292] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 1218256325 [EditorId] 1218256325 [Version] 1048832 [Id] WindowsEditor(7,JUMPSTATION) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 16.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016037 seconds.
-- Loaded All Assemblies, in  0.558 seconds
+Registered in 0.019149 seconds.
+- Loaded All Assemblies, in  0.673 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.402 seconds
-Domain Reload Profiling: 957ms
-	BeginReloadAssembly (180ms)
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 1130ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (216ms)
-		LoadAssemblies (175ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (201ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (210ms)
-				TypeCache.ScanAssembly (191ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (234ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (403ms)
+	FinalizeReload (461ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (316ms)
+		SetupLoadedEditorAssemblies (351ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,53 +118,451 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GamnigSpace\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\GamnigSpace\The-3D-Game\GameTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.001 seconds
-Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.014 seconds
+Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.829 seconds
-Domain Reload Profiling: 2827ms
-	BeginReloadAssembly (259ms)
+- Finished resetting the current domain, in  1.949 seconds
+Domain Reload Profiling: 2960ms
+	BeginReloadAssembly (262ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
+		CreateAndSetChildDomain (36ms)
 	RebuildCommonClasses (54ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (621ms)
-		LoadAssemblies (477ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (627ms)
+		LoadAssemblies (483ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (294ms)
-			TypeCache.Refresh (260ms)
-				TypeCache.ScanAssembly (240ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1830ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1949ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1571ms)
+		SetupLoadedEditorAssemblies (1683ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (1372ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (1484ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (240.0 KB). Loaded Objects now: 4239.
+Unloading 43 unused Assets / (239.5 KB). Loaded Objects now: 4239.
 Memory consumption went from 157.6 MB to 157.3 MB.
-Total: 6.762000 ms (FindLiveObjects: 0.503300 ms CreateObjectMapping: 0.482800 ms MarkObjects: 5.431900 ms  DeleteObjects: 0.341800 ms)
+Total: 8.950600 ms (FindLiveObjects: 0.581300 ms CreateObjectMapping: 0.615500 ms MarkObjects: 7.452600 ms  DeleteObjects: 0.298700 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1769.914764 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-12.mat
+  artifactKey: Guid(db22b3bd37f6220479b2d443a523f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-12.mat using Guid(db22b3bd37f6220479b2d443a523f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d72e9390ff74f0ebfa97c148f54bc7') in 0.204222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-04.mat
+  artifactKey: Guid(566b1898345837d41a837826ac8f61d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-04.mat using Guid(566b1898345837d41a837826ac8f61d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9378776c6f1341e31fe61bbd809edbe9') in 0.022673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Door-Wood-Model-01.fbx
+  artifactKey: Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Door-Wood-Model-01.fbx using Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3c6aab1205ff253dc17c039e75b463') in 0.091543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-05.mat
+  artifactKey: Guid(8325361387834014a9ef33531464743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-05.mat using Guid(8325361387834014a9ef33531464743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c485ceef258226d4feb775dcc13c64') in 0.022023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-02.fbx
+  artifactKey: Guid(2f16e9f8b47f15443a3e5190d7cc3135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-02.fbx using Guid(2f16e9f8b47f15443a3e5190d7cc3135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0966971fb1ee67c586a23a4d8ee1da') in 0.030437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-04.mat
+  artifactKey: Guid(da7f4587877a06f4bb0021fd666bdccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-04.mat using Guid(da7f4587877a06f4bb0021fd666bdccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f799ca02f7db244f97aa96f3ba5071') in 0.021222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-03.fbx
+  artifactKey: Guid(e1ff90def9a530248ab22c3a085eac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-03.fbx using Guid(e1ff90def9a530248ab22c3a085eac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6776008cf38679977bc199141a96780f') in 0.030922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-02.mat
+  artifactKey: Guid(0fc3020a2505de74fab37954d521ed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-02.mat using Guid(0fc3020a2505de74fab37954d521ed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fc9238dcd77868e29f0a909f09e7d9') in 0.030262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-06.mat
+  artifactKey: Guid(b2f7b06625d016645882d7041377502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-06.mat using Guid(b2f7b06625d016645882d7041377502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058d33448aff50a9bf9ca7f521edbb4d') in 0.023335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-05.png
+  artifactKey: Guid(27f6e11eec062c242b9812b9aafd7443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-05.png using Guid(27f6e11eec062c242b9812b9aafd7443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d4e4cbf1ab84faea95b64247b44424') in 0.050504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models
+  artifactKey: Guid(e582ed4c24b728e40a93880b5b5a0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models using Guid(e582ed4c24b728e40a93880b5b5a0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453e523853f588ac5cfa6f99be1eee7a') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-07.mat
+  artifactKey: Guid(ac519ce1f0b9273469231f091560a86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-07.mat using Guid(ac519ce1f0b9273469231f091560a86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73091c4fd2ca7aa179f5200874b33125') in 0.029020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-11.png
+  artifactKey: Guid(a93277b1437c8ee4e8cf38e1e3ca480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-11.png using Guid(a93277b1437c8ee4e8cf38e1e3ca480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d2696214c1a2e538dbeb3eac3eddc3') in 0.031972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-06.png
+  artifactKey: Guid(785d2f53d721c1248bc0114a59dded13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-06.png using Guid(785d2f53d721c1248bc0114a59dded13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9b897975358c5af32e3311b7e7edb3') in 0.038185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-09.fbx
+  artifactKey: Guid(3e8a43558db0cac478d4d6d833479cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-09.fbx using Guid(3e8a43558db0cac478d4d6d833479cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee362fbc626f1a01f9fb03237f9e290') in 0.037205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-01.mat
+  artifactKey: Guid(b30dcab12d8cb64438630df58d94510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-01.mat using Guid(b30dcab12d8cb64438630df58d94510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae98efeb41e010f866e3098d73ef337') in 0.021580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-10.mat
+  artifactKey: Guid(e7e59c9c966c6ba418317867239d89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-10.mat using Guid(e7e59c9c966c6ba418317867239d89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5269683a075a6c02a0b65ff5eda902d') in 0.029540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-02.png
+  artifactKey: Guid(e7be35ddf1e796d479fef702b9d323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-02.png using Guid(e7be35ddf1e796d479fef702b9d323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a4a985f48c0e5f252d32c2eb02e4c7') in 0.031477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-04.png
+  artifactKey: Guid(9de0e56a53043984da41f0e4271bdf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-04.png using Guid(9de0e56a53043984da41f0e4271bdf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586ae74a1f17c9fabf6cb20b56388990') in 0.031858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-02.png
+  artifactKey: Guid(605b52fe3aa7e4f4e88e7e23f776d940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-02.png using Guid(605b52fe3aa7e4f4e88e7e23f776d940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621a998eef15d489d013fab6ab95ff90') in 0.030766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials
+  artifactKey: Guid(3837870fba6fa704f94bd8129a3e3f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials using Guid(3837870fba6fa704f94bd8129a3e3f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805a1cd1f24f4f89ff899e3555c7d077') in 0.000823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-08.fbx
+  artifactKey: Guid(f3ed6584d1386d24684fd8330fa2057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-08.fbx using Guid(f3ed6584d1386d24684fd8330fa2057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f91e992a47160ee56c22507468c15ba') in 0.039638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Corner-Wood-Model-04.fbx
+  artifactKey: Guid(ad296451297fb5041a5a13cc354c0bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Corner-Wood-Model-04.fbx using Guid(ad296451297fb5041a5a13cc354c0bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ade509e9b50d73a342488cc51be0d49') in 0.029148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Floor-Wood-Model-02.mat
+  artifactKey: Guid(b36f28aa57c7300419c58f3720d00952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Floor-Wood-Model-02.mat using Guid(b36f28aa57c7300419c58f3720d00952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab18e3b1607806d0e1465319c0be0a1') in 0.023129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Floor-Wood-Model-02.fbx
+  artifactKey: Guid(e9befa4495beba840ad08ac68756820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Floor-Wood-Model-02.fbx using Guid(e9befa4495beba840ad08ac68756820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9689137b41e7eaae1c0f4abc5d9556cf') in 0.032625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Floor-Wood-Model-01.png
+  artifactKey: Guid(c5a633fc94d366f4d8f603eec5105535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Floor-Wood-Model-01.png using Guid(c5a633fc94d366f4d8f603eec5105535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4536b1a6ec9578492873966f0615e9a2') in 0.028434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-08.png
+  artifactKey: Guid(b8e381cbde763c447b317ef7d4355712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-08.png using Guid(b8e381cbde763c447b317ef7d4355712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e65dda12473e83043499f636b07c8db') in 0.033953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-03.mat
+  artifactKey: Guid(024ec65dc7d742e4d87f866c034ff810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-03.mat using Guid(024ec65dc7d742e4d87f866c034ff810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61ae407e50f65f1b3a4e5ca0e2ee430') in 0.030307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-01.mat
+  artifactKey: Guid(c536d6c83c786874c99ede5429a81770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Corner-Wood-Model-01.mat using Guid(c536d6c83c786874c99ede5429a81770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5989fbb50654184c1aea33fba0ed438') in 0.025889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-07.fbx
+  artifactKey: Guid(55bf89779428ca0408a0ac364f64acdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-07.fbx using Guid(55bf89779428ca0408a0ac364f64acdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f58929051614efa1ca1b5e3b3375d6') in 0.029650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-01.mat
+  artifactKey: Guid(549e14b0782f578449d1f6c4ab6094ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-01.mat using Guid(549e14b0782f578449d1f6c4ab6094ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd20cd49058385ceae1d590290352182') in 0.023048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-07.png
+  artifactKey: Guid(873c5c5ed605db24690f89923871b86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-07.png using Guid(873c5c5ed605db24690f89923871b86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd402c4fd126d237f0b9acd62e0196416') in 0.033424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-10.fbx
+  artifactKey: Guid(c5ebeadff40677f428f920862a3f1e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Wall-Wood-Model-10.fbx using Guid(c5ebeadff40677f428f920862a3f1e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fde3e2fc15a6f55b66845ca7c62ec45') in 0.031281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-09.png
+  artifactKey: Guid(a7dceb2629f36ce4ea00b2c8324419e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Wall-Wood-Model-09.png using Guid(a7dceb2629f36ce4ea00b2c8324419e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01034d402b0ffe532c4b0f4d4c87939') in 0.028671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-02.mat
+  artifactKey: Guid(5e9feb5a539d5454c818492db729ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-02.mat using Guid(5e9feb5a539d5454c818492db729ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af45d87b5f69373a04a71af4c4d0cfc4') in 0.037718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Floor-Wood-Model-01.fbx
+  artifactKey: Guid(35b4e51cccb1aef4c97d8691e64bcdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Floor-Wood-Model-01.fbx using Guid(35b4e51cccb1aef4c97d8691e64bcdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b480057ebc788a9114e6cbe131b9aaec') in 0.049696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 656.565072 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Floors/Floor-Stone (1).prefab
+  artifactKey: Guid(5c5270ce0258f074e9ec5251e4b0776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Floors/Floor-Stone (1).prefab using Guid(5c5270ce0258f074e9ec5251e4b0776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1398a2c283ee2b480b148ec0829591') in 0.037705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.004203 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Floors/Floor-Stone (3).prefab
+  artifactKey: Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Floors/Floor-Stone (3).prefab using Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751b33e40e0acf116798b2e4fb777433') in 0.055464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Floor-Stone-Model-04.png
+  artifactKey: Guid(19fa909af79051c45bc53491eb301c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Floor-Stone-Model-04.png using Guid(19fa909af79051c45bc53491eb301c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb08140bfee700085029a94a64fac07') in 0.106007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Floor-Stone-Model-02.png
+  artifactKey: Guid(2aa5b41a596bc424e852c02af81b563b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Floor-Stone-Model-02.png using Guid(2aa5b41a596bc424e852c02af81b563b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362c878861c048478d2f49f4f2165358') in 0.058630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Wood/Floors/Floor-Wood (1).prefab
+  artifactKey: Guid(2046beae207d6db4199c40c4d14f4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Wood/Floors/Floor-Wood (1).prefab using Guid(2046beae207d6db4199c40c4d14f4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df915dae755918917d70914090d01c72') in 0.041175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Floor-Stone-Model-03.mat
+  artifactKey: Guid(907d88b92f7d1bf499be0995fc4c75bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Floor-Stone-Model-03.mat using Guid(907d88b92f7d1bf499be0995fc4c75bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6448dd50c6b0d5549a1851202091a5e4') in 0.024094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/Floor-Stone-Model-03.fbx
+  artifactKey: Guid(03cbc850a19aa0345b9554d1c90faa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/Floor-Stone-Model-03.fbx using Guid(03cbc850a19aa0345b9554d1c90faa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2a619efc2a2b308c11062d3345610d') in 0.042227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Floor-Stone-Model-01.mat
+  artifactKey: Guid(36ccc1482a1cb234fa00f4bba66dae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Floor-Stone-Model-01.mat using Guid(36ccc1482a1cb234fa00f4bba66dae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ee6b50bc7bbe60848a1527847f3afc') in 0.044788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Wood/Floors/Floor-Wood (2).prefab
+  artifactKey: Guid(b5bbd85c42f75ab4e88a9575bc5b5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Wood/Floors/Floor-Wood (2).prefab using Guid(b5bbd85c42f75ab4e88a9575bc5b5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13aa7748e8ebfc126f5f1c3f292ecafa') in 0.034805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 282.214374 seconds.
+  path: Assets/Terrain & Environment/UF Creator LITE/FBX/Docks_1A(Gr).fbx
+  artifactKey: Guid(3dac446bd5b8eb242ae16c3eba20bab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain & Environment/UF Creator LITE/FBX/Docks_1A(Gr).fbx using Guid(3dac446bd5b8eb242ae16c3eba20bab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55697dbefabad938a2976ada34980ebb') in 0.717825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Terrain & Environment/UF Creator LITE/FBX/Supplies_1A(Gr).fbx
+  artifactKey: Guid(cc634ff9e5466e24386d6b475340f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain & Environment/UF Creator LITE/FBX/Supplies_1A(Gr).fbx using Guid(cc634ff9e5466e24386d6b475340f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb694cc948852930c04de2b8694bb53') in 0.213278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (191.1 KB). Loaded Objects now: 4286.
+Memory consumption went from 98.6 MB to 98.4 MB.
+Total: 6.366100 ms (FindLiveObjects: 0.483000 ms CreateObjectMapping: 0.517100 ms MarkObjects: 5.270500 ms  DeleteObjects: 0.094100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -179,153 +577,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4609.157772 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Demo Scenes/Demo Dungeons.unity
-  artifactKey: Guid(5d16060afb9b6a64e86da0304e3a615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Demo Scenes/Demo Dungeons.unity using Guid(5d16060afb9b6a64e86da0304e3a615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ec1b1b55906d64ad5c57fc01ecacb3') in 0.003450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 145.229671 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Doors/Door-Stone (1).prefab
-  artifactKey: Guid(3026cfe035107be4eb17b0ed93596957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Doors/Door-Stone (1).prefab using Guid(3026cfe035107be4eb17b0ed93596957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12620db60e6e1b78ace045ee3a4a81f0') in 0.264216 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Door-Stone-Model-01.png
-  artifactKey: Guid(22a90a0ad8a42554c892964288104240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Door-Stone-Model-01.png using Guid(22a90a0ad8a42554c892964288104240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac03e8a6ce737b0e665d80f1a31425e6') in 0.042905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Door-Wood-Model-01.fbx
-  artifactKey: Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Door-Wood-Model-01.fbx using Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9736cbf37e5b80ff5613594d4c1ae6c') in 0.048580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Door-Wood-Model-03.fbx
-  artifactKey: Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Door-Wood-Model-03.fbx using Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851bb019aff771802832f513bdbc76e0') in 0.030201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Door-Stone-Model-01.mat
-  artifactKey: Guid(204b0ea5595393c4d950b931f84f64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Door-Stone-Model-01.mat using Guid(204b0ea5595393c4d950b931f84f64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53af262249b0eddeee9dd410132905b7') in 0.051055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Door-Stone-Model-03.mat
-  artifactKey: Guid(fa7fadc7b74c7b44b80f5b0dea2d59f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Door-Stone-Model-03.mat using Guid(fa7fadc7b74c7b44b80f5b0dea2d59f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6adf41cf7d06e762b616061a53f6ddd') in 0.029709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Doors/Door-Stone (3).prefab
-  artifactKey: Guid(912331f82e3fac14da3fb42b2d2eceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Doors/Door-Stone (3).prefab using Guid(912331f82e3fac14da3fb42b2d2eceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada1ca41adf5b573e2991238755b2d5d') in 0.036637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Door-Stone-Model-02.png
-  artifactKey: Guid(adc4b68cc31d85c408cff305b2b6b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/materials/Door-Stone-Model-02.png using Guid(adc4b68cc31d85c408cff305b2b6b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73df544dccac17aa6a7b9c93145035f') in 0.048706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-01.mat
-  artifactKey: Guid(549e14b0782f578449d1f6c4ab6094ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-01.mat using Guid(549e14b0782f578449d1f6c4ab6094ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657089cb4476d8a2498cc18e1606ae70') in 0.019075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-01.png
-  artifactKey: Guid(4060538865d89f244846f234cb47d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-01.png using Guid(4060538865d89f244846f234cb47d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd268f3c6c20989e0ca25cd56b1dc5577') in 0.027667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/Door-Stone-Model-03.fbx
-  artifactKey: Guid(7ba2e918d3548e74d85b1d3d3d6ac1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Stone/Door-Stone-Model-03.fbx using Guid(7ba2e918d3548e74d85b1d3d3d6ac1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be16e98ff4cb69d96def4df7c9bab0b') in 0.024971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Door-Wood-Model-02.fbx
-  artifactKey: Guid(f0e081e328e30854da83a08974ef6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/Door-Wood-Model-02.fbx using Guid(f0e081e328e30854da83a08974ef6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60f6a92f2eb150f05944ebc715d6f72') in 0.031797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-02.mat
-  artifactKey: Guid(5e9feb5a539d5454c818492db729ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Models/Wood/materials/Door-Wood-Model-02.mat using Guid(5e9feb5a539d5454c818492db729ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75cec1b62a5d797854e285e57592394') in 0.022431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.475847 seconds.
-  path: Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Doors
-  artifactKey: Guid(a05221b2fd181c54b879864a4503c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy DG Assets 1 - Wood + Stone/Prefabs/Stone/Doors using Guid(a05221b2fd181c54b879864a4503c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeecc02166898126d15053f65a0d0a5c') in 0.000687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 239.838427 seconds.
-  path: Assets/Enemy NPC's/FourEvilDragonsPBR/Prefab/DragonUsurper/Black.prefab
-  artifactKey: Guid(09ade59177310454ba3c93ae4b7dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy NPC's/FourEvilDragonsPBR/Prefab/DragonUsurper/Black.prefab using Guid(09ade59177310454ba3c93ae4b7dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1fd6a12b7064284d932eaeffcbfec3') in 1.174360 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 310
-========================================================================
-Received Import Request.
-  Time since last request: 29.759087 seconds.
-  path: Assets/ground.mat
-  artifactKey: Guid(63a1667c8fc0687429d2fdc1ce9d6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ground.mat using Guid(63a1667c8fc0687429d2fdc1ce9d6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d43491c878621ac7fd12e10d390dc4') in 0.018131 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 48.121880 seconds.
-  path: Assets/ground.mat
-  artifactKey: Guid(63a1667c8fc0687429d2fdc1ce9d6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ground.mat using Guid(63a1667c8fc0687429d2fdc1ce9d6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44490ec5dad83aae921f9efbb872845') in 0.070489 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
