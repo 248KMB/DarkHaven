@@ -371,6 +371,7 @@
 "Assets/Scripts/PlayerCamera.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/SpiderAI.cs"
+"Assets/TeleportOnContact.cs"
 "Assets/TeleportScript.cs"
 "Assets/Terrain & Environment/Piloto Studio/Readme/Scripts/Readme.cs"
 "Assets/Terrain & Environment/Piloto Studio/Readme/Scripts/ReadmeBehaviour.cs"
