@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44100574, g: 0.48198146, b: 0.5280829, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -462,10 +462,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1211287954066710, guid: 6cd36f5ade0ee474ab43ad38e0ba25b6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1363967791}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cd36f5ade0ee474ab43ad38e0ba25b6, type: 3}
 --- !u!4 &121304428 stripped
 Transform:
@@ -1146,14 +1143,6 @@ MonoBehaviour:
     - {fileID: 846929246}
     - {fileID: 1129876922}
     - {fileID: 960349895}
-    - {fileID: 1682750277}
-    - {fileID: 959602352}
-    - {fileID: 1054091938}
-    - {fileID: 884041642}
-    - {fileID: 2098336344}
-    - {fileID: 2077364135}
-    - {fileID: 2105910555}
-    - {fileID: 1189212541}
     - {fileID: 2141737901}
     - {fileID: 393022993}
     - {fileID: 1870713445}
@@ -11988,15 +11977,35 @@ MonoBehaviour:
       Data: 437|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
+      Entry: 6
+      Data: 
+    - Name: _isLeaf
+      Entry: 5
+      Data: false
+    - Name: _parent
+      Entry: 9
+      Data: 435
+    - Name: _children
       Entry: 7
-      Data: 438|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 438|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 439|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: _data
+      Entry: 7
+      Data: 440|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
       Data: 89
     - Name: Prefab
       Entry: 10
-      Data: 90
+      Data: 89
     - Name: 
       Entry: 8
       Data: 
@@ -12005,887 +12014,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 435
-    - Name: _children
-      Entry: 7
-      Data: 439|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.1617
-    - Name: 
-      Entry: 4
-      Data: 0.180745244
-    - Name: 
-      Entry: 4
-      Data: 12.4504013
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.423843
-    - Name: 
-      Entry: 4
-      Data: 1.31648588
-    - Name: 
-      Entry: 4
-      Data: 12.5295982
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 440|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 6
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: false
-    - Name: _parent
-      Entry: 9
-      Data: 435
+      Data: 437
     - Name: _children
       Entry: 7
       Data: 441|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 442|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 7
-      Data: 443|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp
-    - Name: Obj
-      Entry: 10
-      Data: 91
-    - Name: Prefab
-      Entry: 10
-      Data: 90
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: true
-    - Name: _parent
-      Entry: 9
-      Data: 440
-    - Name: _children
-      Entry: 7
-      Data: 444|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.04509
-    - Name: 
-      Entry: 4
-      Data: 0.06242609
-    - Name: 
-      Entry: 4
-      Data: 12.4262495
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.52626
-    - Name: 
-      Entry: 4
-      Data: 2.27671123
-    - Name: 
-      Entry: 4
-      Data: 12.55375
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 445|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 7
-      Data: 446|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp
-    - Name: Obj
-      Entry: 10
-      Data: 92
-    - Name: Prefab
-      Entry: 10
-      Data: 90
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: true
-    - Name: _parent
-      Entry: 9
-      Data: 440
-    - Name: _children
-      Entry: 7
-      Data: 447|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 145.955231
-    - Name: 
-      Entry: 4
-      Data: -0.01755619
-    - Name: 
-      Entry: 4
-      Data: 11.8084259
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 148.622925
-    - Name: 
-      Entry: 4
-      Data: 3.0705204
-    - Name: 
-      Entry: 4
-      Data: 12.7414894
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 145.955231
-    - Name: 
-      Entry: 4
-      Data: -0.01755619
-    - Name: 
-      Entry: 4
-      Data: 11.8084259
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 148.622925
-    - Name: 
-      Entry: 4
-      Data: 3.0705204
-    - Name: 
-      Entry: 4
-      Data: 12.7414894
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 145.955231
-    - Name: 
-      Entry: 4
-      Data: -0.01755619
-    - Name: 
-      Entry: 4
-      Data: 11.8084259
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 148.622925
-    - Name: 
-      Entry: 4
-      Data: 3.0705204
-    - Name: 
-      Entry: 4
-      Data: 12.7414894
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 448|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 6
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: false
-    - Name: _parent
-      Entry: 9
-      Data: 433
-    - Name: _children
-      Entry: 7
-      Data: 449|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 450|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 7
-      Data: 451|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp
-    - Name: Obj
-      Entry: 10
-      Data: 93
-    - Name: Prefab
-      Entry: 10
-      Data: 90
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: true
-    - Name: _parent
-      Entry: 9
-      Data: 448
-    - Name: _children
-      Entry: 7
-      Data: 452|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 146.043167
-    - Name: 
-      Entry: 4
-      Data: 0.581794262
-    - Name: 
-      Entry: 4
-      Data: 12.1820107
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 148.52684
-    - Name: 
-      Entry: 4
-      Data: 3.14773417
-    - Name: 
-      Entry: 4
-      Data: 12.748764
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 453|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 6
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: false
-    - Name: _parent
-      Entry: 9
-      Data: 448
-    - Name: _children
-      Entry: 7
-      Data: 454|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 455|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 7
-      Data: 456|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp
-    - Name: Obj
-      Entry: 10
-      Data: 94
-    - Name: Prefab
-      Entry: 10
-      Data: 90
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: true
-    - Name: _parent
-      Entry: 9
-      Data: 453
-    - Name: _children
-      Entry: 7
-      Data: 457|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.069351
-    - Name: 
-      Entry: 4
-      Data: 3.09360838
-    - Name: 
-      Entry: 4
-      Data: 12.2239246
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.491989
-    - Name: 
-      Entry: 4
-      Data: 3.610763
-    - Name: 
-      Entry: 4
-      Data: 12.6840725
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 458|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 6
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: false
-    - Name: _parent
-      Entry: 9
-      Data: 453
-    - Name: _children
-      Entry: 7
-      Data: 459|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 460|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 7
-      Data: 461|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp
-    - Name: Obj
-      Entry: 10
-      Data: 95
-    - Name: Prefab
-      Entry: 10
-      Data: 90
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: true
-    - Name: _parent
-      Entry: 9
-      Data: 458
-    - Name: _children
-      Entry: 7
-      Data: 462|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.007751
-    - Name: 
-      Entry: 4
-      Data: 2.746861
-    - Name: 
-      Entry: 4
-      Data: 12.1643925
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.769867
-    - Name: 
-      Entry: 4
-      Data: 3.286561
-    - Name: 
-      Entry: 4
-      Data: 12.7012672
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 463|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 7
-      Data: 464|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp
-    - Name: Obj
-      Entry: 10
-      Data: 96
-    - Name: Prefab
-      Entry: 10
-      Data: 90
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: true
-    - Name: _parent
-      Entry: 9
-      Data: 458
-    - Name: _children
-      Entry: 7
-      Data: 465|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.111389
-    - Name: 
-      Entry: 4
-      Data: 2.99088359
-    - Name: 
-      Entry: 4
-      Data: 12.2811689
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.458618
-    - Name: 
-      Entry: 4
-      Data: 3.56523681
-    - Name: 
-      Entry: 4
-      Data: 12.7005186
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.007751
-    - Name: 
-      Entry: 4
-      Data: 2.746861
-    - Name: 
-      Entry: 4
-      Data: 12.1643925
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.769867
-    - Name: 
-      Entry: 4
-      Data: 3.56523681
-    - Name: 
-      Entry: 4
-      Data: 12.7012672
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.007751
-    - Name: 
-      Entry: 4
-      Data: 2.746861
-    - Name: 
-      Entry: 4
-      Data: 12.1643925
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 147.769867
-    - Name: 
-      Entry: 4
-      Data: 3.610763
-    - Name: 
-      Entry: 4
-      Data: 12.7012672
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 146.043167
-    - Name: 
-      Entry: 4
-      Data: 0.581794262
-    - Name: 
-      Entry: 4
-      Data: 12.1643925
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 148.52684
-    - Name: 
-      Entry: 4
-      Data: 3.610763
-    - Name: 
-      Entry: 4
-      Data: 12.748764
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 145.955231
-    - Name: 
-      Entry: 4
-      Data: -0.01755619
-    - Name: 
-      Entry: 4
-      Data: 11.8084259
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 148.622925
-    - Name: 
-      Entry: 4
-      Data: 3.610763
-    - Name: 
-      Entry: 4
-      Data: 12.748764
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 466|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 6
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: false
-    - Name: _parent
-      Entry: 9
-      Data: 431
-    - Name: _children
-      Entry: 7
-      Data: 467|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 468|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 6
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: false
-    - Name: _parent
-      Entry: 9
-      Data: 466
-    - Name: _children
-      Entry: 7
-      Data: 469|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 470|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 6
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: false
-    - Name: _parent
-      Entry: 9
-      Data: 468
-    - Name: _children
-      Entry: 7
-      Data: 471|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 472|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 6
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: false
-    - Name: _parent
-      Entry: 9
-      Data: 470
-    - Name: _children
-      Entry: 7
-      Data: 473|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 474|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp]], Assembly-CSharp
-    - Name: _data
-      Entry: 7
-      Data: 475|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
-        Assembly-CSharp
-    - Name: Obj
-      Entry: 10
-      Data: 97
-    - Name: Prefab
-      Entry: 10
-      Data: 97
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _isLeaf
-      Entry: 5
-      Data: true
-    - Name: _parent
-      Entry: 9
-      Data: 472
-    - Name: _children
-      Entry: 7
-      Data: 476|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -12931,7 +12063,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 477|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 442|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -12941,28 +12073,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 472
+      Data: 437
     - Name: _children
       Entry: 7
-      Data: 478|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 443|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 479|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 444|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 480|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 445|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 98
+      Data: 90
     - Name: Prefab
       Entry: 10
-      Data: 98
+      Data: 90
     - Name: 
       Entry: 8
       Data: 
@@ -12971,10 +12103,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 477
+      Data: 442
     - Name: _children
       Entry: 7
-      Data: 481|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 446|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13020,18 +12152,18 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 482|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 447|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 483|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 448|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 99
+      Data: 91
     - Name: Prefab
       Entry: 10
-      Data: 99
+      Data: 91
     - Name: 
       Entry: 8
       Data: 
@@ -13040,10 +12172,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 477
+      Data: 442
     - Name: _children
       Entry: 7
-      Data: 484|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 449|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13167,7 +12299,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 485|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 450|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -13177,28 +12309,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 470
+      Data: 435
     - Name: _children
       Entry: 7
-      Data: 486|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 451|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 487|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 452|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 488|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 453|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 100
+      Data: 92
     - Name: Prefab
       Entry: 10
-      Data: 100
+      Data: 92
     - Name: 
       Entry: 8
       Data: 
@@ -13207,10 +12339,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 485
+      Data: 450
     - Name: _children
       Entry: 7
-      Data: 489|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 454|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13256,7 +12388,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 490|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 455|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -13266,28 +12398,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 485
+      Data: 450
     - Name: _children
       Entry: 7
-      Data: 491|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 456|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 492|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 457|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 493|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 458|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 101
+      Data: 93
     - Name: Prefab
       Entry: 10
-      Data: 101
+      Data: 93
     - Name: 
       Entry: 8
       Data: 
@@ -13296,10 +12428,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 490
+      Data: 455
     - Name: _children
       Entry: 7
-      Data: 494|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 459|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13345,7 +12477,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 495|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 460|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -13355,28 +12487,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 490
+      Data: 455
     - Name: _children
       Entry: 7
-      Data: 496|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 461|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 497|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 462|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 498|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 463|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 102
+      Data: 94
     - Name: Prefab
       Entry: 10
-      Data: 102
+      Data: 94
     - Name: 
       Entry: 8
       Data: 
@@ -13385,10 +12517,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 495
+      Data: 460
     - Name: _children
       Entry: 7
-      Data: 499|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 464|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13434,18 +12566,18 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 500|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 465|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 501|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 466|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 103
+      Data: 95
     - Name: Prefab
       Entry: 10
-      Data: 103
+      Data: 95
     - Name: 
       Entry: 8
       Data: 
@@ -13454,10 +12586,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 495
+      Data: 460
     - Name: _children
       Entry: 7
-      Data: 502|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 467|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13659,7 +12791,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 503|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 468|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -13669,28 +12801,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 468
+      Data: 433
     - Name: _children
       Entry: 7
-      Data: 504|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 469|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 505|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 470|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 506|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 471|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 104
+      Data: 96
     - Name: Prefab
       Entry: 10
-      Data: 104
+      Data: 96
     - Name: 
       Entry: 8
       Data: 
@@ -13699,10 +12831,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 503
+      Data: 468
     - Name: _children
       Entry: 7
-      Data: 507|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 472|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13748,18 +12880,18 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 508|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 473|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 509|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 474|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 105
+      Data: 97
     - Name: Prefab
       Entry: 10
-      Data: 105
+      Data: 97
     - Name: 
       Entry: 8
       Data: 
@@ -13768,10 +12900,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 503
+      Data: 468
     - Name: _children
       Entry: 7
-      Data: 510|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 475|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13895,7 +13027,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 511|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 476|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -13905,28 +13037,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 466
+      Data: 431
     - Name: _children
       Entry: 7
-      Data: 512|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 477|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 513|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 478|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 514|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 479|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 106
+      Data: 98
     - Name: Prefab
       Entry: 10
-      Data: 106
+      Data: 98
     - Name: 
       Entry: 8
       Data: 
@@ -13935,10 +13067,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 511
+      Data: 476
     - Name: _children
       Entry: 7
-      Data: 515|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 480|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -13984,18 +13116,18 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 516|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 481|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 517|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 482|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 107
+      Data: 99
     - Name: Prefab
       Entry: 10
-      Data: 107
+      Data: 99
     - Name: 
       Entry: 8
       Data: 
@@ -14004,10 +13136,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 511
+      Data: 476
     - Name: _children
       Entry: 7
-      Data: 518|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 483|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -14143,45 +13275,6 @@ MonoBehaviour:
       Data: 133.000641
     - Name: 
       Entry: 4
-      Data: -0.01755631
-    - Name: 
-      Entry: 4
-      Data: -15.798872
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _max
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 158.087067
-    - Name: 
-      Entry: 4
-      Data: 7.282984
-    - Name: 
-      Entry: 4
-      Data: 12.748764
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _min
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 133.000641
-    - Name: 
-      Entry: 4
       Data: -0.0422515869
     - Name: 
       Entry: 4
@@ -14287,7 +13380,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 519|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 484|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14300,14 +13393,14 @@ MonoBehaviour:
       Data: 289
     - Name: _children
       Entry: 7
-      Data: 520|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 485|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 521|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 486|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14317,17 +13410,17 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 519
+      Data: 484
     - Name: _children
       Entry: 7
-      Data: 522|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 487|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 523|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 488|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14337,25 +13430,25 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 521
+      Data: 486
     - Name: _children
       Entry: 7
-      Data: 524|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 489|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 525|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 490|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 526|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 491|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 108
+      Data: 100
     - Name: Prefab
       Entry: 10
       Data: 3
@@ -14367,10 +13460,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 523
+      Data: 488
     - Name: _children
       Entry: 7
-      Data: 527|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 492|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -14416,7 +13509,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 528|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 493|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14426,28 +13519,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 523
+      Data: 488
     - Name: _children
       Entry: 7
-      Data: 529|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 494|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 530|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 495|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 531|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 496|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 109
+      Data: 101
     - Name: Prefab
       Entry: 10
-      Data: 110
+      Data: 102
     - Name: 
       Entry: 8
       Data: 
@@ -14456,10 +13549,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 528
+      Data: 493
     - Name: _children
       Entry: 7
-      Data: 532|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 497|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -14505,7 +13598,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 533|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 498|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14515,28 +13608,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 528
+      Data: 493
     - Name: _children
       Entry: 7
-      Data: 534|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 499|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 535|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 500|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 536|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 501|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 111
+      Data: 103
     - Name: Prefab
       Entry: 10
-      Data: 111
+      Data: 103
     - Name: 
       Entry: 8
       Data: 
@@ -14545,10 +13638,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 533
+      Data: 498
     - Name: _children
       Entry: 7
-      Data: 537|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 502|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -14594,7 +13687,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 538|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 503|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14604,17 +13697,17 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 533
+      Data: 498
     - Name: _children
       Entry: 7
-      Data: 539|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 504|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 540|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 505|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14624,28 +13717,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 538
+      Data: 503
     - Name: _children
       Entry: 7
-      Data: 541|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 506|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 542|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 507|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 543|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 508|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 112
+      Data: 104
     - Name: Prefab
       Entry: 10
-      Data: 113
+      Data: 105
     - Name: 
       Entry: 8
       Data: 
@@ -14654,10 +13747,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 540
+      Data: 505
     - Name: _children
       Entry: 7
-      Data: 544|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 509|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -14703,18 +13796,18 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 545|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 510|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 546|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 511|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 114
+      Data: 106
     - Name: Prefab
       Entry: 10
-      Data: 113
+      Data: 105
     - Name: 
       Entry: 8
       Data: 
@@ -14723,10 +13816,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 540
+      Data: 505
     - Name: _children
       Entry: 7
-      Data: 547|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 512|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -14811,7 +13904,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 548|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 513|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14821,28 +13914,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 538
+      Data: 503
     - Name: _children
       Entry: 7
-      Data: 549|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 514|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 550|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 515|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 551|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 516|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 115
+      Data: 107
     - Name: Prefab
       Entry: 10
-      Data: 113
+      Data: 105
     - Name: 
       Entry: 8
       Data: 
@@ -14851,10 +13944,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 548
+      Data: 513
     - Name: _children
       Entry: 7
-      Data: 552|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 517|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -14900,7 +13993,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 553|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 518|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14910,28 +14003,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 548
+      Data: 513
     - Name: _children
       Entry: 7
-      Data: 554|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 519|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 555|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 520|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 556|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 521|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 116
+      Data: 108
     - Name: Prefab
       Entry: 10
-      Data: 113
+      Data: 105
     - Name: 
       Entry: 8
       Data: 
@@ -14940,10 +14033,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 553
+      Data: 518
     - Name: _children
       Entry: 7
-      Data: 557|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 522|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -14989,7 +14082,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 558|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 523|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -14999,28 +14092,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 553
+      Data: 518
     - Name: _children
       Entry: 7
-      Data: 559|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 524|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 560|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 525|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 561|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 526|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 117
+      Data: 109
     - Name: Prefab
       Entry: 10
-      Data: 113
+      Data: 105
     - Name: 
       Entry: 8
       Data: 
@@ -15029,10 +14122,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 558
+      Data: 523
     - Name: _children
       Entry: 7
-      Data: 562|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 527|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -15078,7 +14171,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 563|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 528|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -15088,28 +14181,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 558
+      Data: 523
     - Name: _children
       Entry: 7
-      Data: 564|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 529|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 565|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 530|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 566|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 531|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 118
+      Data: 110
     - Name: Prefab
       Entry: 10
-      Data: 113
+      Data: 105
     - Name: 
       Entry: 8
       Data: 
@@ -15118,10 +14211,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 563
+      Data: 528
     - Name: _children
       Entry: 7
-      Data: 567|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 532|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -15167,18 +14260,18 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 568|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 533|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 569|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 534|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 119
+      Data: 111
     - Name: Prefab
       Entry: 10
-      Data: 113
+      Data: 105
     - Name: 
       Entry: 8
       Data: 
@@ -15187,10 +14280,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 563
+      Data: 528
     - Name: _children
       Entry: 7
-      Data: 570|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 535|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -15548,7 +14641,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 571|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 536|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -15558,28 +14651,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 521
+      Data: 486
     - Name: _children
       Entry: 7
-      Data: 572|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 537|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 573|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 538|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 574|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 539|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 120
+      Data: 112
     - Name: Prefab
       Entry: 10
-      Data: 120
+      Data: 112
     - Name: 
       Entry: 8
       Data: 
@@ -15588,10 +14681,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 571
+      Data: 536
     - Name: _children
       Entry: 7
-      Data: 575|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 540|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -15637,15 +14730,15 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 576|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 541|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 577|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 542|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 121
+      Data: 113
     - Name: Prefab
       Entry: 10
       Data: 3
@@ -15657,10 +14750,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 571
+      Data: 536
     - Name: _children
       Entry: 7
-      Data: 578|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 543|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -15784,7 +14877,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 579|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 544|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -15794,25 +14887,25 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 519
+      Data: 484
     - Name: _children
       Entry: 7
-      Data: 580|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 545|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 581|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 546|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 582|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 547|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 122
+      Data: 114
     - Name: Prefab
       Entry: 10
       Data: 3
@@ -15824,10 +14917,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 579
+      Data: 544
     - Name: _children
       Entry: 7
-      Data: 583|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 548|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -15873,7 +14966,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 584|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 549|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -15883,28 +14976,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 579
+      Data: 544
     - Name: _children
       Entry: 7
-      Data: 585|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 550|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 586|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 551|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 587|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 552|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 123
+      Data: 115
     - Name: Prefab
       Entry: 10
-      Data: 123
+      Data: 115
     - Name: 
       Entry: 8
       Data: 
@@ -15913,10 +15006,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 584
+      Data: 549
     - Name: _children
       Entry: 7
-      Data: 588|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 553|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -15962,7 +15055,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 589|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 554|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -15972,28 +15065,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 584
+      Data: 549
     - Name: _children
       Entry: 7
-      Data: 590|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 555|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 591|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 556|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 592|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 557|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 124
+      Data: 116
     - Name: Prefab
       Entry: 10
-      Data: 124
+      Data: 116
     - Name: 
       Entry: 8
       Data: 
@@ -16002,10 +15095,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 589
+      Data: 554
     - Name: _children
       Entry: 7
-      Data: 593|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 558|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -16051,7 +15144,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 594|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 559|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 6
@@ -16061,28 +15154,28 @@ MonoBehaviour:
       Data: false
     - Name: _parent
       Entry: 9
-      Data: 589
+      Data: 554
     - Name: _children
       Entry: 7
-      Data: 595|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 560|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 596|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 561|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 597|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 562|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 125
+      Data: 117
     - Name: Prefab
       Entry: 10
-      Data: 125
+      Data: 117
     - Name: 
       Entry: 8
       Data: 
@@ -16091,10 +15184,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 594
+      Data: 559
     - Name: _children
       Entry: 7
-      Data: 598|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 563|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -16140,18 +15233,18 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 599|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 564|VladislavTsurikov.BVH.Scripts.BVHNodeAABB`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp
     - Name: _data
       Entry: 7
-      Data: 600|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 565|VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp
     - Name: Obj
       Entry: 10
-      Data: 126
+      Data: 118
     - Name: Prefab
       Entry: 10
-      Data: 126
+      Data: 118
     - Name: 
       Entry: 8
       Data: 
@@ -16160,10 +15253,10 @@ MonoBehaviour:
       Data: true
     - Name: _parent
       Entry: 9
-      Data: 594
+      Data: 559
     - Name: _children
       Entry: 7
-      Data: 601|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
+      Data: 566|System.Collections.Generic.List`1[[VladislavTsurikov.BVH.Scripts.BVHNode`1[[VladislavTsurikov.ColliderSystem.Scripts.UnityIntegration.BVHGameObject,
         Assembly-CSharp]], Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -19163,11 +18256,6 @@ Transform:
   - {fileID: 1382598940}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &884041642 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6418383917627331837, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-  m_PrefabInstance: {fileID: 1498290719}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &904912463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19322,11 +18410,6 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 487688, guid: 15f938c2d771562408ad6e67a4202c93, type: 3}
   m_PrefabInstance: {fileID: 956159472}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &959602352 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6102168432905421709, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-  m_PrefabInstance: {fileID: 1498290719}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &960349894
 PrefabInstance:
@@ -19750,11 +18833,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a33113401cfb32a418556824cf4d9dc7, type: 3}
---- !u!1 &1054091938 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8989037672651084065, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-  m_PrefabInstance: {fileID: 1498290719}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1093616058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20214,11 +19292,6 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 171244, guid: a44da8a9f68a89444b2866cbae5f3673, type: 3}
   m_PrefabInstance: {fileID: 1181587278}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1189212541 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6954908835503801637, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-  m_PrefabInstance: {fileID: 1498290719}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1206959123
 PrefabInstance:
@@ -20871,18 +19944,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1211287954066710, guid: 6cd36f5ade0ee474ab43ad38e0ba25b6, type: 3}
   m_PrefabInstance: {fileID: 121304427}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1363967791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1363967790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f5cb50bbf0d2ff45ac03b23b606dcba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1382598935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21294,75 +20355,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 420016, guid: e679b61532759764ca61a7d2a757b4d8, type: 3}
   m_PrefabInstance: {fileID: 1488483921}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1498290719
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6102168432905421709, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_Name
-      value: Player-Default
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 147.285
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.000002861023
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 12.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6102168432905421810, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
 --- !u!1 &1535492184 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2049288244493141951, guid: fd02805ee801de64a828e8190cac7784, type: 3}
@@ -21991,11 +20983,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a33113401cfb32a418556824cf4d9dc7, type: 3}
---- !u!1 &1682750277 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3155096520848415695, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-  m_PrefabInstance: {fileID: 1498290719}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1709333831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23318,11 +22305,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &2077364135 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7727340552298697655, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-  m_PrefabInstance: {fileID: 1498290719}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2087457370 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1791832924498850, guid: 9e066cea98814aa448c70270a3c60251, type: 3}
@@ -23342,16 +22324,6 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 466236, guid: a33113401cfb32a418556824cf4d9dc7, type: 3}
   m_PrefabInstance: {fileID: 1206959123}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2098336344 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8084538560331916909, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-  m_PrefabInstance: {fileID: 1498290719}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2105910555 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7371295867645927850, guid: 15a79c54f0de80a41955a50618f7c71e, type: 3}
-  m_PrefabInstance: {fileID: 1498290719}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2123559566
 PrefabInstance:
@@ -23590,7 +22562,6 @@ SceneRoots:
   - {fileID: 1313576237}
   - {fileID: 804588858}
   - {fileID: 2018862459}
-  - {fileID: 1498290719}
   - {fileID: 1660874396}
   - {fileID: 1537594183}
   - {fileID: 167438269}
