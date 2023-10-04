@@ -8,9 +8,9 @@ public class PlayerController : MonoBehaviour
     private CharacterController characterController;
 
     private bool isMoving;
-    private float timeSinceLastClick = 0f;
     private float comboTimeThreshold = 0.5f; // Time window between clicks for combo attacks
     private int comboCount = 0;
+    private float lastAttackTime = 0f;
 
     public float speed;
     public float rotationSpeed;
@@ -46,25 +46,30 @@ public class PlayerController : MonoBehaviour
 
         animator.SetBool("IsRunning", isMoving);
 
-        if (isMoving && Input.GetMouseButtonDown(0))
+        animator.SetBool("IsAttacking", false);
+
+        // Check if enough time has passed for a new combo to start
+        if (Time.time > lastAttackTime + comboTimeThreshold)
         {
-            if (Time.time > timeSinceLastClick + comboTimeThreshold)
+            comboCount = 0;
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            animator.SetBool("IsAttacking", true);
+            // Increment the combo count
+            comboCount++;
+            if (comboCount == 4)
             {
-                comboCount = 0;
+                comboCount = 1;
             }
 
-            comboCount++;
-            timeSinceLastClick = Time.time;
+            // Play the attack animation
+            animator.SetInteger("ComboCount", comboCount);
+            animator.SetTrigger("Attack" + comboCount);
 
-            comboCount = Mathf.Clamp(comboCount, 1, 3);
-
-            string attackAnimation = "Attack" + comboCount;
-            animator.SetBool("IsAttacking", true);
-            animator.SetTrigger(attackAnimation);
-        }
-        else
-        {
-            animator.SetBool("IsAttacking", false);
+            // Update the last attack time
+            lastAttackTime = Time.time;
         }
     }
 }
