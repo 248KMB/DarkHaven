@@ -1,7 +1,8 @@
 Shader "Standard Double Sided"
 {
 	Properties
-	{
+	{	
+		_AlphaClip ("Alpha Clip Threshold", Range (0, 1)) = 0.5
 		_Color("Color", Color) = (1,1,1,1)
 		_MainTex("Albedo", 2D) = "white" {}
 		
@@ -46,7 +47,10 @@ Shader "Standard Double Sided"
 	}
 
 	CGINCLUDE
+	//.....
 		#define UNITY_SETUP_BRDF_INPUT MetallicSetup
+	half _AlphaClip;
+	//....
 	ENDCG
 
 	SubShader
