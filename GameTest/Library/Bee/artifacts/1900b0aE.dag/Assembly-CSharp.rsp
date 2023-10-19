@@ -361,6 +361,8 @@
 "Assets/EasyObjectsFade/CameraOrbit.cs"
 "Assets/EasyObjectsFade/EasyObjectsFade.cs"
 "Assets/EasyObjectsFade/StandardShaderUtils.cs"
+"Assets/Playable Characters/Crusader tank/Scripts/AttributeManager.cs"
+"Assets/Playable Characters/Crusader tank/Scripts/DamageTester1.cs"
 "Assets/PlayerSpawn.cs"
 "Assets/Scripts/InTheWay.cs"
 "Assets/Scripts/MakeTransperentScript.cs"
