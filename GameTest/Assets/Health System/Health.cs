@@ -8,19 +8,22 @@ public class Health : MonoBehaviour
     public Image healthBar;
     public float healthAmount = 100;
 
+    private void OnTriggerEnter(Collider other) // using a trigger system using collider 
+    {
+        if (other.gameObject.CompareTag("Enemy")) // if object has an Enemy Tag 
+        {
+            TakeDamage(20); //player takes damage 
+        }
+    }
+
     private void Update()
     {
         if(healthAmount <= 0)
         {
-            Application.LoadLevel(Application.loadedLevel);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         }
 
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            TakeDamage(20);
-        }
-
-        if(Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T))
         {
             Healing(10);
         }
