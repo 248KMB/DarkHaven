@@ -6,6 +6,8 @@ TagManager:
   tags:
   - SpawnPoint
   - Enemy
+  - MiniBoss
+  - Boss
   layers:
   - Default
   - TransparentFX
