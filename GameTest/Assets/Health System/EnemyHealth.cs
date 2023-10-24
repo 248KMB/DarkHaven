@@ -8,8 +8,11 @@ public class EnemyHealth : MonoBehaviour
     public float health;
     public float maxHealth;
 
+
     public GameObject healthBarUI;
     public Slider slider;
+    public Camera camera;
+    public GameObject enemy;
 
     void Start()
     {
@@ -20,6 +23,7 @@ public class EnemyHealth : MonoBehaviour
     void Update()
     {
         slider.value = CalculateHealth();
+        transform.rotation = camera.transform.rotation;
 
         if(health < maxHealth)
         {
@@ -28,7 +32,7 @@ public class EnemyHealth : MonoBehaviour
 
         if(health <= 0)
         {
-            Destroy(gameObject);
+            Destroy(enemy);
         }
 
         if(health > maxHealth)
