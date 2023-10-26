@@ -366,6 +366,7 @@
 "Assets/Health System/Health.cs"
 "Assets/Playable Characters/Crusader tank/Scripts/AttributeManager.cs"
 "Assets/Playable Characters/Crusader tank/Scripts/DamageTester1.cs"
+"Assets/PlayerCombat.cs"
 "Assets/PlayerSpawn.cs"
 "Assets/Scripts/InTheWay.cs"
 "Assets/Scripts/MakeTransperentScript.cs"

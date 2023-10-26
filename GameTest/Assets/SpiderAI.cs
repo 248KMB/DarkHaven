@@ -12,7 +12,7 @@ public class SpiderAI : MonoBehaviour
 
     //Patrolling
     public Vector3 walkPoint;
-    bool walkPointSet;
+    //bool walkPointSet;
     public float walkPointRange;
 
     //Attacking
@@ -35,9 +35,18 @@ public class SpiderAI : MonoBehaviour
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
+        /* May not use this.
+         * 
         if (!playerInSightRange && !playerInAttackRange)
         {
             Patrolling();
+        }
+        */
+        if (!playerInSightRange && !playerInAttackRange)
+        {
+            spiderAnimator.SetBool("IsIdle", true);
+            spiderAnimator.SetBool("IsWalk", false);
+            spiderAnimator.SetBool("IsAttack", false);
         }
         if (playerInSightRange && !playerInAttackRange)
         {
@@ -48,7 +57,10 @@ public class SpiderAI : MonoBehaviour
             AttackPlayer();
         }
     }
-
+    
+    /* May not use this.
+     * 
+     * 
     private void Patrolling()
     {
         if (!walkPointSet)
@@ -88,17 +100,21 @@ public class SpiderAI : MonoBehaviour
             walkPointSet = true;
         }
     }
+    */
 
     private void ChasePlayer()
     {
         agent.SetDestination(player.position);
         spiderAnimator.SetBool("IsIdle", false);
         spiderAnimator.SetBool("IsWalk", true);
+        spiderAnimator.SetBool("IsAttack", false);
     }
 
     private void AttackPlayer()
     {
         //Make sure enemy doesn't move
+        spiderAnimator.SetBool("IsIdle", false);
+        spiderAnimator.SetBool("IsWalk", false);
         agent.SetDestination(transform.position);
 
         transform.LookAt(player);
