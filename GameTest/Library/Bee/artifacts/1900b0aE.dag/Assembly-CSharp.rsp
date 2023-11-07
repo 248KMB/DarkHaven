@@ -362,6 +362,7 @@
 "Assets/EasyObjectsFade/CameraOrbit.cs"
 "Assets/EasyObjectsFade/EasyObjectsFade.cs"
 "Assets/EasyObjectsFade/StandardShaderUtils.cs"
+"Assets/Enemy.cs"
 "Assets/Health System/EnemyHealth.cs"
 "Assets/Health System/Health.cs"
 "Assets/Playable Characters/Crusader tank/Scripts/AttributeManager.cs"
@@ -1001,6 +1002,7 @@
 "Assets/VladislavTsurikov/Utility/ModulesUtility.cs"
 "Assets/VladislavTsurikov/Utility/ScriptingDefineSymbolsUtility.cs"
 "Assets/VladislavTsurikov/Utility/TextureUtility.cs"
+"Assets/Weapon.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
