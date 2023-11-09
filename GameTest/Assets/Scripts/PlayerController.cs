@@ -16,10 +16,22 @@ public class PlayerController : MonoBehaviour
     public float rotationSpeed;
     public float gravity = 9.81f;
 
+    public float damageAmount = 10f; // Set the damage amount according to your game's balance
+    public GameObject spiderGameObject; // Assign the spider GameObject in the Unity Editor
+
+
     private void Start()
     {
         animator = GetComponent<Animator>();
         characterController = GetComponent<CharacterController>();
+
+        // Find the spider GameObject using its tag
+        spiderGameObject = GameObject.FindGameObjectWithTag("Enemy");
+
+        if (spiderGameObject == null)
+        {
+            Debug.LogError("Spider GameObject not found!");
+        }
     }
 
     private void Update()
@@ -70,6 +82,18 @@ public class PlayerController : MonoBehaviour
 
             // Update the last attack time
             lastAttackTime = Time.time;
+        }
+    }
+
+    private void DealDamageToSpider()
+    {
+        // Check if the spider is in range (you can use a similar approach as OnTriggerEnter)
+        SpidersHealth spiderHealth = spiderGameObject.GetComponent<SpidersHealth>();
+
+        // If the spider health script is found, deal damage to the spider
+        if (spiderHealth != null)
+        {
+            spiderHealth.TakeDamage(damageAmount);
         }
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - MiniBoss
   - Boss
+  - Mace
   layers:
   - Default
   - TransparentFX

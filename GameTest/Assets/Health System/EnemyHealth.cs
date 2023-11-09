@@ -25,21 +25,22 @@ public class EnemyHealth : MonoBehaviour
         slider.value = CalculateHealth();
         transform.rotation = camera.transform.rotation;
 
-        if(health < maxHealth)
+        if (health < maxHealth)
         {
             healthBarUI.SetActive(true);
         }
 
-        if(health <= 0)
+        if (health <= 0)
         {
             Destroy(enemy);
         }
 
-        if(health > maxHealth)
+        if (health > maxHealth)
         {
             health = maxHealth;
         }
     }
+
 
     public void TakeDamage(int damage)
     {
@@ -49,5 +50,14 @@ public class EnemyHealth : MonoBehaviour
     float CalculateHealth()
     {
         return health / maxHealth;
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            TakeDamage(10); // Assuming the player deals 10 damage upon collision
+        }
+
     }
 }
