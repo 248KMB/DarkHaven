@@ -4,14 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class SpidersHealth : MonoBehaviour
 {
     public Image healthBar;
     public float healthAmount = 100;
     public float damagePerSecond = 10f; // Damage per second when player is touching the spider
     public EnemyHealth enemyHealth;
+    public PlayerController playerController;
     private bool isTouchingSpider = false;
 
+    private void Start()
+    {
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
+    }
     private void Update()
     {
         if (healthAmount <= 0)
@@ -51,18 +57,21 @@ public class SpidersHealth : MonoBehaviour
 
     public void TakeDamage(float Damage)
     {
-        int damageInt = Mathf.CeilToInt(Damage); // Round the float up to the nearest integer
-        damageInt = Mathf.Max(1, damageInt); // Ensure a minimum of 1 damage is dealt
-        healthAmount -= damageInt;
-        healthBar.fillAmount = healthAmount / 100;
-        Debug.Log("Spider's health: " + healthAmount + ", Health Bar fill amount: " + healthBar.fillAmount);
-
-        // Call TakeDamage method from EnemyHealth script
-        enemyHealth.TakeDamage(damageInt);
-
-        if (healthAmount <= 0)
+        if(!playerController.isMoving)
         {
-            Die();
+            int damageInt = Mathf.CeilToInt(Damage); // Round the float up to the nearest integer
+            damageInt = Mathf.Max(1, damageInt); // Ensure a minimum of 1 damage is dealt
+            healthAmount -= damageInt;
+            healthBar.fillAmount = healthAmount / 100;
+            Debug.Log("Spider's health: " + healthAmount + ", Health Bar fill amount: " + healthBar.fillAmount);
+
+            // Call TakeDamage method from EnemyHealth script
+            enemyHealth.TakeDamage(damageInt);
+
+            if (healthAmount <= 0)
+            {
+                Die();
+            }
         }
     }
 }

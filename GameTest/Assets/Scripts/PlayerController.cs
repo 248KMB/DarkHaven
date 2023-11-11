@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private CharacterController characterController;
 
-    private bool isMoving;
+    public bool isMoving;
     private float comboTimeThreshold = 0.5f; // Time window between clicks for combo attacks
     private int comboCount = 0;
     private float lastAttackTime = 0f;
@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
 
         // Find the spider GameObject using its tag
         spiderGameObject = GameObject.FindGameObjectWithTag("Enemy");
-
+        
         if (spiderGameObject == null)
         {
             Debug.LogError("Spider GameObject not found!");
