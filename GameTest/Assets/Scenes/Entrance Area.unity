@@ -24778,6 +24778,7 @@ MonoBehaviour:
   healthAmount: 100
   damagePerSecond: 10
   enemyHealth: {fileID: 252312060}
+  playerController: {fileID: 0}
 --- !u!1001 &1668342797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26255,6 +26256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51075d408c7b9f64c9420807754cc583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isMoving: 0
   speed: 10
   rotationSpeed: 450
   gravity: 9.81

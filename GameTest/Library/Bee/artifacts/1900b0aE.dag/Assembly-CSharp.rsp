@@ -371,6 +371,7 @@
 "Assets/PlayerSpawn.cs"
 "Assets/Scripts/InTheWay.cs"
 "Assets/Scripts/MakeTransperentScript.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/PlayerCamera.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/SpiderAI.cs"
