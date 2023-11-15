@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy")) // if object has an Enemy Tag 
         {
-            TakeDamage(5); //player takes damage 
+            TakeDamage(2); //player takes damage 
         }
 
         if (other.gameObject.CompareTag("MiniBoss")) 
