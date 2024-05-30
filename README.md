@@ -1,4 +1,4 @@
-# Project Title
+# Project DarkHaven
 
 ## Introduction
 *Welcome to my project page for **DarkHaven**. Dark Haven is a 3D RPG(role-playing game) that has been creatively put together by Unity assets and consists of a warrior who needs to kill all the mobs in a dungeon. I joined a team of 5 for a class project to push our game design careers with our first-ever game.*
