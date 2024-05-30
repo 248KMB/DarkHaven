@@ -41,16 +41,17 @@ Here are some screenshots from the game:
 - ![Screenshot 3](link-to-screenshot3.jpg)
 
 ### Videos
-Watch gameplay videos or trailers:
-
-- [Gameplay Video 1](link-to-video1)
-- [Gameplay Video 2](link-to-video2)
+Watch gameplay:
+- <a href="https://youtu.be/wAd8qHzv0n0?si=C-vvwvO-q-HG7gyE"> Gameplay 1</a>
 
 ## Development Process
 ### Planning
 *The planning phase first involved the story. As the team leader, I gathered input from all team members to shape the game's narrative. We devised an engaging plot centered around a warrior desperate for money. This warrior approaches a guild and learns of a mission to clear out a dangerous dungeon, setting the primary goal for the player. This led me to make two distinct scenes: the home and the levels scenes. We then ensured there were barriers for the player not to pass through and ensured the user was in the right areas of the game. The main components we planned for the game were ensuring we had all RPG-related mechanics like third-party vision, mob/ player animations, and health and damage systems. Regarding damage, regular mobs are two attack points and incrementally rise for higher-ranked mobs like mini-bosses and the boss.*
 
 ### Design
+
+#### Videos
+<a href="https://youtu.be/1zwN2p1-YNs" > *Level Design* </a>
 #### Scene Design
 ***Dungeon layout**: Each level in the scene will be unique in terms of shapes.* 
 ***Home layout**: will be wide enough to explore the scene and have a gateway.* 
