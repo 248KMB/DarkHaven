@@ -88,6 +88,7 @@ Watch gameplay:
 
 #### Implementation within Scripts
 - ***Damage and Health**: I did a simple damage and health system tracking the health of players and mobs using colliders that trigger the boxes of the players and mobs.*
+  <a href="https://youtu.be/FoO4uGEzqjw"> Systems and AI </a>
 
 ### Testing
 #### Testing Damage and System 
@@ -101,12 +102,12 @@ Watch gameplay:
 
 ## Challenges Faced
 *Throughout the development of **Darkhaven**, we encountered several challenges:*
-- ***Animations:** The First challenge was getting the animations to work correctly since it was our first time using the animation manager in Unity. We encountered numerous errors with scripts incorrectly setting up the animation manager to connect all the animations, like idle, attacks, and running together. However, we solved this by doing extensive research on how to work with animations and figured out how to start the animation and get it to trigger when the user presses the necessary button for the action to occur.*
+- ***Animations:** The First challenge was getting the animations to work correctly since it was our first time using the animation manager in Unity. We encountered numerous errors with scripts incorrectly setting up the animation manager to connect all the animations, like idle, attacks, and running together. However, we solved this by doing extensive research on how to work with animations. We figured out how to start the animation and get it to trigger when the user presses the necessary button for the action to occur.*
 - ***Time constraint:** One challenge we faced was the time scope and the ability to add more in the given time. We eventually just focused on the fundamentals of the game, putting those first, and finished the game with great assets.*
-- ***PathFinding** For mobs to track down the user once it enters the mob's 'field of vision,' we needed to make sure the pathfinding was correct; however, that needed knowledge of Artificial Intelligence. We extensively tested as much AI pathfinding as possible to ensure the mob precisely chased the character; we concluded that A* was the best.*
+- ***PathFinding** For mobs to track down the user once it enters the mob's 'field of vision,' we needed to make sure the pathfinding was correct; however, that needed knowledge of Artificial Intelligence. We extensively tested as much AI pathfinding as possible to ensure the mob precisely chased the character.*
 
 ## Conclusion
-***Dark Haven** was an incredible learning experience that allowed me to grow as a game designer. Through this project, I gained valuable Game Design, Level Design, and Leadership skills. I am proud of the final product. Thank you for taking the time to learn about my project!*
+***Dark Haven** was an incredible learning experience that allowed me to grow as a game designer. I gained valuable Game Design, Level Design, and Leadership skills through this project. I am proud of the final product. Thank you for taking the time to learn about my project!*
 
 ## Play the Game
 *You can play <a href="https://simmer.io/@oreowaffle/darkhaven">**DarkHaven**</a> now!*
