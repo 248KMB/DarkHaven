@@ -119,6 +119,6 @@ Watch gameplay:
 
 ---
 
-<a href="https://github.com/248KMB/248KMB"> *back to my portfolio* </a>
+<a href="https://github.com/248KMB"> *back to my portfolio* </a>
 
 ---
